@@ -44,7 +44,7 @@
 
 | Bonus_functions     | Status        |
 |------------------|---------------------|
-|   [ft_lstnew](ft_lstnew.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_lstnew](bonus_functions/ft_lstnew.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |   [ft_lstadd_front](ft_lstadd_front.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |   [ft_lstsize](ft_lstsize.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |   [ft_lstlast](ft_lstlast.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
