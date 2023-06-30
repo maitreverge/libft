@@ -1,7 +1,19 @@
 # libft
 
-| First Column     | Second Column        |
+🔴 = **Not Started** 
+
+🟠 = **In Progress** 
+
+🟣 = **Needs debug** 
+
+🟢 = **Completed** 
+
+
+
+| Function     | Status        |
 |------------------|---------------------|
-| Simple Text 1    | **<font color="green">OK</font>** |
-| Simple Text 2    | **<font color="red">KO</font>**   |
-| Simple Text 3    | **<font color="green">OK</font>** |
+| Simple Text 2    | 🔴 **Not Started**   |
+| Simple Text 2    | 🟠 **In Progress**   |
+| Simple Text 2    | 🟢 **Completed**   |
+| Simple Text 2    | 🟣 **Needs debug**   |
+| Simple Text 2    | 🔴 **Not started**   |
