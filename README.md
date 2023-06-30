@@ -1,6 +1,7 @@
 # libft
 
-[]()
+![Progress](https://progress-bar.dev/99/?scale=100&title=Global&width=1200&color=babaca&suffix=%)
+
 
 | Function     | Status        |
 |------------------|---------------------|
