@@ -1,10 +1,6 @@
 # libft
 
 
-![Progress](https://progress-bar.dev/0/)
-
-![Progress](https://progress-bar.dev/0/?title=Unstarted)
-
 
 | Function     | Status        |
 |------------------|---------------------|
