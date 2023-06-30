@@ -1,6 +1,6 @@
 # libft
 
-![Progress](https://progress-bar.dev/0/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/1/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
 
 
 | Function     | Status        |
@@ -12,7 +12,7 @@
 |  [ft_memmove](ft_memmove.c)   | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |  [ft_memchr](ft_memchr.c)   | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |  [ft_memcmp](ft_memcmp.c)   | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-|  [ft_strlen](ft_strlen.c)   | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|  [ft_strlen](ft_strlen.c)   | ![Progress](https://progress-bar.dev/80/?title=Working) |
 |   [ft_isalpha](ft_isalpha.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |    [ft_isdigit](ft_isdigit.c) | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |   [ft_isalnum](ft_isalnum.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
