@@ -25,7 +25,7 @@
 | ft_strlcpy    | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 | ft_strlcat    | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 | ft_strnstr    | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-| ft_atoi    | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+| [ft_atoi](ft_atoi.c) | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 | ft_calloc    | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 | ft_strdup    | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 
