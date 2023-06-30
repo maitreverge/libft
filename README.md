@@ -45,11 +45,11 @@
 | Bonus_functions     | Status        |
 |------------------|---------------------|
 |   [ft_lstnew](bonus_functions/ft_lstnew.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-|   [ft_lstadd_front](ft_lstadd_front.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-|   [ft_lstsize](ft_lstsize.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-|   [ft_lstlast](ft_lstlast.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-|   [ft_lstadd_back](ft_lstadd_back.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-|   [ft_lstdelone](ft_lstdelone.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-|   [ft_lstclear](ft_lstclear.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-|   [ft_lstiter](ft_lstiter.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-|   [ft_lstmap](ft_lstmap.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_lstadd_front](bonus_functions/ft_lstadd_front.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_lstsize](bonus_functions/ft_lstsize.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_lstlast](bonus_functions/ft_lstlast.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_lstadd_back](bonus_functions/ft_lstadd_back.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_lstdelone](bonus_functions/ft_lstdelone.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_lstclear](bonus_functions/ft_lstclear.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_lstiter](bonus_functions/ft_lstiter.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_lstmap](bonus_functions/ft_lstmap.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
