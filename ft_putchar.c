@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: florianverge <marvin@42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/01 19:10:04 by florianverge      #+#    #+#             */
-/*   Updated: 2023/07/01 19:36:02 by florianverge     ###   ########.fr       */
+/*   Created: 2023/07/01 19:18:32 by florianverge      #+#    #+#             */
+/*   Updated: 2023/07/01 19:19:06 by florianverge     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putstr_fd(char *s, int fd)
+void	ft_putchar(char c)
 {
-	write(fd, s, ft_strlen(s));
+	write(1, &c, 1);
 }
