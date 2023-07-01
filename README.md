@@ -1,6 +1,6 @@
 # libft
 
-![Progress](https://progress-bar.dev/3/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/6/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
 
 
 | Function     | Status        |
@@ -14,7 +14,7 @@
 |  [ft_memcmp](ft_memcmp.c)   | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |  [ft_strlen](ft_strlen.c)   | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_isalpha](ft_isalpha.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-|    [ft_isdigit](ft_isdigit.c) | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|    [ft_isdigit](ft_isdigit.c) | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_isalnum](ft_isalnum.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |  [ft_isascii](ft_isascii.c)    | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |  [ft_isprint](ft_isprint.c)   | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
