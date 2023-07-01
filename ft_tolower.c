@@ -6,13 +6,13 @@
 /*   By: florianverge <marvin@42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/01 17:22:35 by florianverge      #+#    #+#             */
-/*   Updated: 2023/07/01 17:26:17 by florianverge     ###   ########.fr       */
+/*   Updated: 2023/07/01 17:31:19 by florianverge     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	is_low(int c)
+int	is_up(int c)
 {
 	if (c >= 65 && c <= 90)
 		return (1);
@@ -22,7 +22,7 @@ int	is_low(int c)
 
 int	ft_tolower(int c)
 {
-	if (is_low(c) == 1)
+	if (is_up(c) == 1)
 		c += 32;
 	return (c);
 }
