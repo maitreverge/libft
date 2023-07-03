@@ -1,6 +1,6 @@
 # libft
 
-![Progress](https://progress-bar.dev/48/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/51/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
 
 
 | Function     | Status        |
@@ -21,7 +21,7 @@
 |   [ft_toupper](ft_toupper.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_tolower](ft_tolower.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strchr](ft_strchr.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
-|   [ft_strrchr](ft_strrchr.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_strrchr](ft_strrchr.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strncmp](ft_strncmp.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |   [ft_strlcpy](ft_strlcpy.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strlcat](ft_strlcat.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
