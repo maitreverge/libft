@@ -1,6 +1,6 @@
 # libft
 
-![Progress](https://progress-bar.dev/41/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/44/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
 
 
 | Function     | Status        |
@@ -8,7 +8,7 @@
 | [ft_memset](ft_memset.c)    | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |  [ft_bzero](ft_bzero.c)   | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_memcpy](ft_memcpy.c)  | ![Progress](https://progress-bar.dev/100/?title=Done)|
-|   [ft_memccpy](ft_memccpy.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_memccpy](ft_memccpy.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |  [ft_memmove](ft_memmove.c)   | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |  [ft_memchr](ft_memchr.c)   | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |  [ft_memcmp](ft_memcmp.c)   | ![Progress](https://progress-bar.dev/100/?title=Done) |
