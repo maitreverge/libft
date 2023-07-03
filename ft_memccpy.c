@@ -6,7 +6,7 @@
 /*   By: florianverge <marvin@42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 12:55:46 by florianverge      #+#    #+#             */
-/*   Updated: 2023/07/03 13:41:46 by florianverge     ###   ########.fr       */
+/*   Updated: 2023/07/03 13:47:44 by florianverge     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	*ft_memccpy(void *restrict dst,
 	p_src = ((const char *)src);
 	char_c = ((unsigned char)c);
 	i = 0;
-	while (*p_src != char_c && i < n)
+	while (i < n)
 	{
 		if (*p_src == char_c)
 		{
