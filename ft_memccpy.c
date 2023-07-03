@@ -6,7 +6,7 @@
 /*   By: florianverge <marvin@42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 12:55:46 by florianverge      #+#    #+#             */
-/*   Updated: 2023/07/03 13:51:39 by florianverge     ###   ########.fr       */
+/*   Updated: 2023/07/03 13:55:08 by florianverge     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,11 @@ void	*ft_memccpy(void *restrict dst,
 	i = 0;
 	while (i < n)
 	{
+		*p_dst = *p_src;
 		if (*p_src == char_c)
 		{
-			return (dst + 1);
+			return (p_dst + 1);
 		}
-		*p_dst = *p_src;
 		i++;
 		p_src++;
 		p_dst++;
