@@ -6,7 +6,7 @@
 /*   By: florianverge <marvin@42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by florianverge      #+#    #+#             */
-/*   Updated: 2023/07/04 12:03:29 by florianverge     ###   ########.fr       */
+/*   Updated: 2023/07/05 09:05:55 by florianverge     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,5 +43,6 @@ int		ft_isascii(int c);
 int		ft_isprint(int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+int		ft_atoi(const char *str);
 
 #endif
