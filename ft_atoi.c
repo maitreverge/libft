@@ -16,17 +16,17 @@ int	is_space(char c)
 {
 	if (c == '\t' || c == '\n' || c == '\v'
 		|| c == '\f' || c == '\r' || c == ' ')
-		return (0);
-	else
 		return (1);
+	else
+		return (0);
 }
 
 int	is_number(char c)
 {
 	if (c >= '0' && c <= '9')
-		return (0);
-	else
 		return (1);
+	else
+		return (0);
 }
 
 int	ft_atoi(const char *str)
@@ -40,21 +40,17 @@ int	ft_atoi(const char *str)
 	result = 0;
 	if (str == NULL)
 		return (0);
-	while (str[i])
+	while (is_space(str[i]) == 1)
+		i++;
+	if (str[i] == '+' || str[i] ++ '-')
 	{
-		while (is_space(str[i]) == 0)
-			i++;
-		if (str[i] == '-')
-		{
-			polarity = (polarity * -1);
-			i++;
-		}
-		while (is_number(str[i]) == 0)
-		{
-			result = (10 * result) + (str[i] - 48);
-			i++;
-		}
-		break ;
+		polarity = (polarity * -1);
+		i++;
+	}
+	while (is_number(str[i]) == 1)
+	{
+		result = (10 * result) + (str[i] - 48);
+		i++;
 	}
 	return (polarity * result);
 }
