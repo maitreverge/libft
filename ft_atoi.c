@@ -38,13 +38,14 @@ int	ft_atoi(const char *str)
 	i = 0;
 	polarity = 1;
 	result = 0;
-	if (str == NULL)
+	if (str == 0)
 		return (0);
 	while (is_space(str[i]) == 1)
 		i++;
-	if (str[i] == '+' || str[i] ++ '-')
+	if (str[i] == '+' || str[i] == '-')
 	{
-		polarity = (polarity * -1);
+		if (str[i] == '-')
+			polarity = (polarity * -1);
 		i++;
 	}
 	while (is_number(str[i]) == 1)
