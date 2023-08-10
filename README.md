@@ -1,8 +1,8 @@
 # libft
 
-![Progress](https://progress-bar.dev/65/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/67/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
 
-28/43
+29/43
 
 | Function     | Status        |
 |------------------|---------------------|
@@ -28,7 +28,7 @@
 |   [ft_strlcat](ft_strlcat.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strnstr](ft_strnstr.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 | [ft_atoi](ft_atoi.c) | ![Progress](https://progress-bar.dev/100/?title=Done) |
-|   [ft_calloc](ft_calloc.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_calloc](ft_calloc.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strdup](ft_strdup.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 
 | Additional_functions     | Status        |
