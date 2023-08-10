@@ -6,7 +6,7 @@
 /*   By: florianverge <florianverge@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by florianverg       #+#    #+#             */
-/*   Updated: 2023/08/10 13:33:28 by florianverg      ###   ########.fr       */
+/*   Updated: 2023/08/10 13:56:52 by florianverg      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <unistd.h>
+# include <stdio.h>
 # include <stdlib.h>
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);

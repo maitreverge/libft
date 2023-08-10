@@ -6,12 +6,9 @@
 /*   By: florianverge <florianverge@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/10 13:03:41 by florianverg       #+#    #+#             */
-/*   Updated: 2023/08/10 13:27:23 by florianverg      ###   ########.fr       */
+/*   Updated: 2023/08/10 13:56:56 by florianverg      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
-#include <stdlib.h>
 
 char **ft_split(char const *s, char c);
 

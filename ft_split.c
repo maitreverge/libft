@@ -6,7 +6,7 @@
 /*   By: florianverge <florianverge@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/10 13:03:16 by florianverg       #+#    #+#             */
-/*   Updated: 2023/08/10 13:45:20 by florianverg      ###   ########.fr       */
+/*   Updated: 2023/08/10 13:48:17 by florianverg      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,9 @@ char **ft_split(char const *s, char c)
     int len_s;
     
     len_s = total_len(s, c);
-    buffer = (char *)malloc(sizeof(char *) * len_s);
+    buffer = (char *)malloc(sizeof(char *) * len_s + 1);
+    if (!buffer)
+        return (NULL);
+    
+    
 } 
