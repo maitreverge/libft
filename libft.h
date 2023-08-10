@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: florianverge <marvin@42.fr>                +#+  +:+       +#+        */
+/*   By: florianverge <florianverge@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/30 16:56:54 by florianverge      #+#    #+#             */
-/*   Updated: 2023/07/05 09:05:55 by florianverge     ###   ########.fr       */
+/*   Created: 2023/06/30 16:56:54 by florianverg       #+#    #+#             */
+/*   Updated: 2023/08/10 13:33:28 by florianverg      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <unistd.h>
+# include <stdlib.h>
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlcat(char *restrict dst,
@@ -31,6 +32,7 @@ void	ft_putstr_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_bzero(void *s, size_t n);
 void	ft_putchar(char c);
+char 	**ft_split(char const *s, char c);
 char    *ft_strnstr(const char *haystack, const char *needle, size_t len);
 char	*ft_strrchr(const char *s, int c);
 char	*ft_strchr(const char *s, int c);

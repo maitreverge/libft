@@ -54,6 +54,7 @@ dkms.conf
 # My Files
 master_main.c
 .DS_Store/
+.DS_Store
 main.c
 
 # VIM: Temperory files
