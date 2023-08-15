@@ -6,7 +6,7 @@
 /*   By: florianverge <florianverge@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 18:17:50 by florianverg       #+#    #+#             */
-/*   Updated: 2023/08/15 18:36:21 by florianverg      ###   ########.fr       */
+/*   Updated: 2023/08/15 18:57:03 by florianverg      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strncpy(char *dest, char const *src, size_t n)
 {
-	unsigned int	i;
+	size_t	i;
 
 	i = 0;
 	while (i < n && src[i] != '\0')
