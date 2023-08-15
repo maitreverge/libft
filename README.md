@@ -36,7 +36,7 @@
 |   [ft_substr](ft_substr.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |   [ft_strjoin](ft_strjoin.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strtrim](ft_strtrim.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
-|   [ft_split](ft_split.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_split](ft_split.c)  | ![Progress](https://progress-bar.dev/70/?title=Working) |
 |   [ft_itoa](ft_itoa.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |    [ft_strmapi](ft_strmapi.c) | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |    [ft_putchar_fd](ft_putchar_fd.c) | ![Progress](https://progress-bar.dev/100/?title=Done) |
