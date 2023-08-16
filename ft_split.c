@@ -6,73 +6,79 @@
 /*   By: florianverge <florianverge@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/10 13:03:16 by florianverg       #+#    #+#             */
-/*   Updated: 2023/08/15 20:48:48 by florianverg      ###   ########.fr       */
+/*   Updated: 2023/08/16 18:21:36 by florianverg      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int count_words(char const *str, char c)
+// Function to count the number of words in a string
+unsigned int count_words(char const *s, char c)
 {
-    int i;
-    int result;
+    unsigned int count = 0;
+    int is_word = 0;
 
-    i = 0;
-    result = 0;
-	while (str[i] == c && str[i])
-		i++;
-	while (str[i] != c && str[i] != '\0'){
-		i++;
-		result++;
-	}
-    return (result);
+    while (*s)
+    {
+        if (*s != c)
+        {
+            if (!is_word)
+            {
+                is_word = 1;
+                count++;
+            }
+        }
+        else
+            is_word = 0;
+        s++;
+    }
+
+    return count;
 }
 
-int	custom_strlen(char const *str, char c)
+// Function to allocate memory and populate the buffer array
+void allocation(char **buffer, char const *s, char c)
 {
-	int i = 0;
+    unsigned int i = 0;
+    unsigned int j = 0;
+    unsigned int start = 0;
 
-	while (str[i] != c){
-		i++;
-	}
-	return i;
-}
-
-void	allocation(char **buffer, char const *str, char c)
-{
-	unsigned int	i; // index de s
-	unsigned int	j; // index de j
-	unsigned int	k; // index de j
-
-	i = 0;
-	j = 0;
-	while (str[i]){
-		k = 0;
-		while (str[i] == c)
-            i++;
-		buffer[j] = malloc(custom_strlen(&str[i], c) + 1);
-		
-		while (str[i] != c && str[i] != '\0'){
-			i++;
-			k++;
-		}
-		ft_strncpy(buffer[j], &str[i - k], k);
-		//buffer[j] = ft_strndup(&str[i - k], k);
+    while (s[i])
+    {
+        if (s[i] != c)
+        {
+            if (start == 0)
+                start = i;
+        }
+        else
+        {
+            if (start != 0)
+            {
+                buffer[j] = (char *)malloc(sizeof(char) * (i - start + 1));
+                ft_strncpy(buffer[j], s + start, i - start);
+                buffer[j][i - start] = '\0';
+                j++;
+                start = 0;
+            }
+        }
+        i++;
+    }
+    if (start != i)
+    {
+        buffer[j] = (char *)malloc(sizeof(char) * (i - start + 1));
+        ft_strncpy(buffer[j], s + start, i - start);
+        buffer[j][i - start] = '\0';
 		j++;
-		i++;
-	}
+    }
 }
-
+// Function to split a string into an array of substrings
 char **ft_split(char const *s, char c)
 {
-    char    **buffer;
-    unsigned int     len_s;
-
-    len_s = count_words(s, c);
-	buffer = (char **)malloc(sizeof(char *) * (len_s + 1));
-	if (!buffer)
-		return (NULL);
-	allocation(buffer, s, c);
-	buffer[len_s] = NULL;
-    return (buffer);
+    unsigned int len_s = count_words(s, c);
+    char **buffer = (char **)malloc(sizeof(char *) * (len_s + 1));
+    if (!buffer)
+        return NULL;
+    allocation(buffer, s, c);
+    buffer[len_s] = NULL;
+    return buffer;
 }
