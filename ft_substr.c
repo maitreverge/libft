@@ -6,32 +6,32 @@
 /*   By: florianverge <florianverge@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 20:54:33 by florianverg       #+#    #+#             */
-/*   Updated: 2023/08/16 16:34:39 by florianverg      ###   ########.fr       */
+/*   Updated: 2023/08/16 19:43:31 by florianverg      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_substr(char const *s, unsigned int start, size_t len)
+char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	char *buffer;
-	unsigned int i;
-	size_t len_s;
+	char	*buffer;
+	size_t	len_s;
 
-	i = 0;
+	if (!s)
+		return (NULL);
 	len_s = ft_strlen(s);
-
+	if (start > len_s)
+		return (ft_strdup(""));
+	if (start == 0 && len >= len_s)
+		return (ft_strdup(s));
 	if (len_s <= len)
 		return (NULL);
-
-	buffer = (char *)malloc(sizeof(char) * (len + 1));
+	if (start + len > len_s)
+		return (NULL);
+	buffer = (char *)ft_calloc(len + 1, sizeof(char));
 	if (!buffer)
 		return (NULL);
-	while (i < len)
-	{
-		buffer[i] = s[start + i];
-		i++;
-	}
-	buffer[i] = '\0';
+	ft_memcpy(buffer, &s[start], len);
+	buffer[len] = '\0';
 	return (buffer);
 }

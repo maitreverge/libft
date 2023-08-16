@@ -1,8 +1,8 @@
 # libft
 
-![Progress](https://progress-bar.dev/67/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/69/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
 
-29/43
+30/43
 
 | Function     | Status        |
 |------------------|---------------------|
@@ -33,7 +33,7 @@
 
 | Additional_functions     | Status        |
 |------------------|---------------------|
-|   [ft_substr](ft_substr.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
+|   [ft_substr](ft_substr.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strjoin](ft_strjoin.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strtrim](ft_strtrim.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |   [ft_split](ft_split.c)  | ![Progress](https://progress-bar.dev/70/?title=Working) |
