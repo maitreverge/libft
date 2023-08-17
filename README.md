@@ -4,7 +4,9 @@
 
 30/43
 
-| Function     | Status        |
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+| Function     | Prototype        |
 |------------------|---------------------|
 | [ft_memset](ft_memset.c)    | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |  [ft_bzero](ft_bzero.c)   | ![Progress](https://progress-bar.dev/100/?title=Done) |
@@ -27,7 +29,7 @@
 |   [ft_strlcpy](ft_strlcpy.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strlcat](ft_strlcat.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strnstr](ft_strnstr.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
-| [ft_atoi](ft_atoi.c) | ![Progress](https://progress-bar.dev/100/?title=Done) |
+| [ft_atoi](part_1/ft_atoi.c) | `int	ft_atoi(const char *str)` |
 |   [ft_calloc](ft_calloc.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strdup](ft_strdup.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 
