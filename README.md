@@ -75,6 +75,8 @@
 | My Functions     | Prototype        |
 |------------------|---------------------|
 |   [ft_abs](my_functions/ft_abs.c)  |  |
+|   [ft_countwords](my_functions/ft_countwords.c)  |  |
+|   [ft_intlen](my_functions/ft_intlen.c)  |  |
 |   [ft_isblank](my_functions/ft_isblank.c)  |  |
 |   [ft_iscntrl](my_functions/ft_iscntrl.c)  |  |
 |   [ft_isgraph](my_functions/ft_isgraph.c)  |  |
