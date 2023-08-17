@@ -6,11 +6,11 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/01 19:15:58 by nope              #+#    #+#             */
-/*   Updated: 2023/08/16 23:49:15 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/17 13:39:33 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
 {

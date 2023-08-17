@@ -6,11 +6,11 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 10:44:38 by nope              #+#    #+#             */
-/*   Updated: 2023/08/16 23:50:26 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/17 13:38:26 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

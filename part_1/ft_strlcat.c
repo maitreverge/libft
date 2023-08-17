@@ -6,11 +6,11 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 17:01:12 by nope              #+#    #+#             */
-/*   Updated: 2023/08/16 23:53:12 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/17 13:38:51 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {

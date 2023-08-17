@@ -6,11 +6,11 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 15:10:12 by nope              #+#    #+#             */
-/*   Updated: 2023/08/16 23:50:19 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/17 13:38:17 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

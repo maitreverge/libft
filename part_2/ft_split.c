@@ -6,11 +6,11 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/10 13:03:16 by nope              #+#    #+#             */
-/*   Updated: 2023/08/16 23:53:32 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/17 13:39:44 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 // Function to count the number of words in a string
 unsigned int count_words(char const *s, char c)

@@ -6,11 +6,11 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/01 20:03:29 by nope              #+#    #+#             */
-/*   Updated: 2023/08/16 23:49:58 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/17 13:38:39 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 void	*ft_memset(void *b, int c, size_t len)
 {

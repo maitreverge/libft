@@ -6,11 +6,11 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 18:17:50 by nope              #+#    #+#             */
-/*   Updated: 2023/08/16 23:52:30 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/17 13:37:25 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 char	*ft_strncpy(char *dest, char const *src, size_t n)
 {
