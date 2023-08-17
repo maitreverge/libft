@@ -1,6 +1,6 @@
 # libft
 
-!(https://progress-bar.dev/46/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/46/?scale=100&width=800&color=babaca&suffix=%)
 
 30/65
 
