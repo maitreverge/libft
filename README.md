@@ -81,7 +81,7 @@
 |   [ft_iscntrl](my_functions/ft_iscntrl.c)  |  |
 |   [ft_isgraph](my_functions/ft_isgraph.c)  |  |
 |   [ft_islower](my_functions/ft_islower.c)  |  |
-|   [ft_isspace](my_functions/ft_isspace.c)  |  |
+|   [ft_isspace](my_functions/ft_isspace.c)  | `int	ft_isspace(char c);` |
 |   [ft_isupper](my_functions/ft_isupper.c)  |  |
 |   [ft_isxdigit](my_functions/ft_isxdigit.c)  |  |
 |   [ft_newstr](my_functions/ft_newstr.c)  | `char	*ft_newstr(size_t size);` |
