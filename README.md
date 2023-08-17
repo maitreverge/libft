@@ -16,16 +16,16 @@
 |  [ft_memchr](part_1/ft_memchr.c)   | `void	*ft_memchr(const void *s, int c, size_t n);` |
 |  [ft_memcmp](part_1/ft_memcmp.c)   | `int		ft_memcmp(const void *s1, const void *s2, size_t n);` |
 |  [ft_strlen](part_1/ft_strlen.c)   | `size_t	ft_strlen(const char *s);` |
-|   [ft_isalpha](part_1/ft_isalpha.c)  | `int		ft_isalpha(int c);` |
-|    [ft_isdigit](part_1/ft_isdigit.c) | `int		ft_isdigit(int c);` |
-|   [ft_isalnum](part_1/ft_isalnum.c)  | `int		ft_isalnum(int c);` |
-|  [ft_isascii](part_1/ft_isascii.c)    | `int		ft_isascii(int c);` |
-|  [ft_isprint](part_1/ft_isprint.c)   | `int		ft_isprint(int c);` |
-|   [ft_toupper](part_1/ft_toupper.c)  | `int		ft_toupper(int c);` |
-|   [ft_tolower](part_1/ft_tolower.c)  | `int		ft_tolower(int c);` |
+|   [ft_isalpha](part_1/ft_isalpha.c)  | `int	ft_isalpha(int c);` |
+|    [ft_isdigit](part_1/ft_isdigit.c) | `int	ft_isdigit(int c);` |
+|   [ft_isalnum](part_1/ft_isalnum.c)  | `int	ft_isalnum(int c);` |
+|  [ft_isascii](part_1/ft_isascii.c)    | `int	ft_isascii(int c);` |
+|  [ft_isprint](part_1/ft_isprint.c)   | `int	ft_isprint(int c);` |
+|   [ft_toupper](part_1/ft_toupper.c)  | `int	ft_toupper(int c);` |
+|   [ft_tolower](part_1/ft_tolower.c)  | `int	ft_tolower(int c);` |
 |   [ft_strchr](part_1/ft_strchr.c)  | `char	*ft_strchr(const char *s, int c);` |
 |   [ft_strrchr](part_1/ft_strrchr.c)  | `char	*ft_strrchr(const char *s, int c);` |
-|   [ft_strncmp](part_1/ft_strncmp.c)  | `int		ft_strncmp(const char *s1, const char *s2, size_t n);` |
+|   [ft_strncmp](part_1/ft_strncmp.c)  | `int	ft_strncmp(const char *s1, const char *s2, size_t n);` |
 |   [ft_strlcpy](part_1/ft_strlcpy.c)  | `size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);` |
 |   [ft_strlcat](part_1/ft_strlcat.c)  | `size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);` |
 |   [ft_strnstr](part1/ft_strnstr.c)  | `char	*ft_strnstr(const char *haystack, const char *needle, size_t len);` |
