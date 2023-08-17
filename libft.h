@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/08/17 17:55:44 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/17 18:00:46 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -118,9 +118,6 @@ void	ft_putchar(char c);
 //  ft_strncasecmp
 char	*ft_strncpy(char *dest, char const *src, size_t n);
 char	*ft_strndup(const char *s1, size_t n);
-//  ft_abs
-//  ft_abs
-//  ft_abs
-//  ft_abs
+//  ft_strtok
 
 #endif

@@ -74,10 +74,7 @@
 
 | My Functions     | Prototype        |
 |------------------|---------------------|
-|   [ft_putchar](my_functions/ft_putchar.c)  | `void	ft_putchar(char c);` |
-|   [ft_newstr](my_functions/ft_newstr.c)  | `char	*ft_newstr(size_t size);` |
-|   [ft_strncpy](my_functions/ft_strncpy.c)  | `char	*ft_strncpy(char *dest, char const *src, size_t n);` |
-|   [ft_strndup](my_functions/ft_strndup.c)  | `char	*ft_strndup(const char *s1, size_t n);` |
+|   [ft_abs](my_functions/ft_abs.c)  |  |
 |   [ft_isblank](my_functions/ft_isblank.c)  |  |
 |   [ft_iscntrl](my_functions/ft_iscntrl.c)  |  |
 |   [ft_isgraph](my_functions/ft_isgraph.c)  |  |
@@ -85,17 +82,20 @@
 |   [ft_isspace](my_functions/ft_isspace.c)  |  |
 |   [ft_isupper](my_functions/ft_isupper.c)  |  |
 |   [ft_isxdigit](my_functions/ft_isxdigit.c)  |  |
+|   [ft_newstr](my_functions/ft_newstr.c)  | `char	*ft_newstr(size_t size);` |
+|   [ft_putchar](my_functions/ft_putchar.c)  | `void	ft_putchar(char c);` |
+|   [ft_power](my_functions/ft_power.c)  |  |
 |   [ft_str_is_alpha](my_functions/ft_str_is_alpha.c)  |  |
 |   [ft_str_is_lowercase](my_functions/ft_str_is_lowercase.c)  |  |
 |   [ft_str_is_numeric](my_functions/ft_str_is_numeric.c)  |  |
 |   [ft_str_is_printable](my_functions/ft_str_is_printable.c)  |  |
+|   [ft_str_is_unique_chars](my_functions/ft_str_is_unique_chars.c)  |  |
 |   [ft_str_is_uppercase](my_functions/ft_str_is_uppercase.c)  |  |
 |   [ft_strcapitalize](my_functions/ft_strcapitalize.c)  |  |
 |   [ft_strcasecmp](my_functions/ft_strcasecmp.c)  |  |
 |   [ft_strcasestr](my_functions/ft_strcasestr.c)  |  |
 |   [ft_strlowcase](my_functions/ft_strlowcase.c)  |  |
 |   [ft_strncasecmp](my_functions/ft_strncasecmp.c)  |  |
+|   [ft_strncpy](my_functions/ft_strncpy.c)  | `char	*ft_strncpy(char *dest, char const *src, size_t n);` |
+|   [ft_strndup](my_functions/ft_strndup.c)  | `char	*ft_strndup(const char *s1, size_t n);` |
 |   [ft_strtok](my_functions/ft_strtok.c)  |  |
-|   [ft_abs](my_functions/ft_abs.c)  |  |
-|   [ft_power](my_functions/ft_power.c)  |  |
-|   [ft_str_is_unique_chars](my_functions/ft_str_is_unique_chars.c)  |  |
