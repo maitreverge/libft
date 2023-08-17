@@ -6,7 +6,7 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-| Function     | Prototype        |
+| Functions PART 1    | Prototype        |
 |------------------|---------------------|
 | [ft_memset](part_1/ft_memset.c)    | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |  [ft_bzero](part_1/ft_bzero.c)   | ![Progress](https://progress-bar.dev/100/?title=Done) |
@@ -36,7 +36,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Additional_functions     | Status        |
+| Functions PART 2     | Prototype        |
 |------------------|---------------------|
 |   [ft_substr](part_2/ft_substr.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
 |   [ft_strjoin](part_2/ft_strjoin.c)  | ![Progress](https://progress-bar.dev/100/?title=Done) |
@@ -52,7 +52,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Bonus_functions     | Status        |
+| Bonus Functions     | Prototype        |
 |------------------|---------------------|
 |   [ft_lstnew](bonus(lst)/ft_lstnew.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
 |   [ft_lstadd_front](bonus(lst)/ft_lstadd_front.c)  | ![Progress](https://progress-bar.dev/0/?title=Unstarted) |
