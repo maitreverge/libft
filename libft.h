@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/08/18 00:25:28 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/18 00:30:56 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,8 +101,8 @@ int ft_lstsize(t_list *lst);
 //  ft_iscntrl
 //  ft_isgraph
 int	ft_islower(int c);
-int ft_isspace(char c);
-//  ft_isupper
+int ft_isspace(int c);
+int	ft_isupper(int c);
 //  ft_isxdigit -> ishexa
 char	*ft_newstr(size_t size);
 void	ft_putchar(char c);

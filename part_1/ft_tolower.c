@@ -6,23 +6,15 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/01 17:22:35 by nope              #+#    #+#             */
-/*   Updated: 2023/08/17 13:39:15 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/18 00:27:37 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-int	is_up(int c)
-{
-	if (c >= 65 && c <= 90)
-		return (1);
-	else
-		return (0);
-}
-
 int	ft_tolower(int c)
 {
-	if (is_up(c) == 1)
+	if (ft_isupper(c) == 1)
 		c += 32;
 	return (c);
 }
