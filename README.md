@@ -1,14 +1,14 @@
 # libft
 
-![Progress](https://progress-bar.dev/46/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/52/?scale=100&width=800&color=babaca&suffix=%)
 
-30/65
+37/70
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Functions PART 1    | Prototype        |
+| Functions PART 1  (24 / 24)   | Prototype        |
 |------------------|---------------------|
 | [ft_atoi](part_1/ft_atoi.c) | `int	ft_atoi(const char *str);` |
 |  [ft_bzero](part_1/ft_bzero.c)   | `void	ft_bzero(void *s, size_t n);` |
@@ -39,7 +39,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Functions PART 2     | Prototype        |
+| Functions PART 2 ( 6 / 10)    | Prototype        |
 |------------------|---------------------|
 |   [ft_itoa](part_2/ft_itoa.c)  | `char	*ft_itoa(int n);` |
 |    [ft_putchar_fd](part_2/ft_putchar_fd.c) | `void	ft_putchar_fd(char c, int fd);` |
@@ -56,7 +56,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Bonus Functions     | Prototype        |
+| Bonus Functions (0 / 9)    | Prototype        |
 |------------------|---------------------|
 |   [ft_lstadd_back](bonus(lst)/ft_lstadd_back.c)  |  |
 |   [ft_lstadd_front](bonus(lst)/ft_lstadd_front.c)  |  |
@@ -72,7 +72,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| My Functions     | Prototype        |
+| My Functions (7 / 27)    | Prototype        |
 |------------------|---------------------|
 |   [ft_abs](my_functions/ft_abs.c)  |  |
 |   [ft_countwords](my_functions/ft_countwords.c)  |  |
