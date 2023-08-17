@@ -1,8 +1,8 @@
 # libft
 
-![Progress](https://progress-bar.dev/69/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
+!(https://progress-bar.dev/46/?scale=100&title=GlobalProgress&width=800&color=babaca&suffix=%)
 
-30/43
+30/65
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
