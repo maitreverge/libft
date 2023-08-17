@@ -92,3 +92,6 @@
 |   [ft_strlowcase](my_functions/ft_strlowcase.c)  |  |
 |   [ft_strncasecmp](my_functions/ft_strncasecmp.c)  |  |
 |   [ft_strtok](my_functions/ft_strtok.c)  |  |
+|   [ft_abs](my_functions/ft_abs.c)  |  |
+|   [ft_power](my_functions/ft_power.c)  |  |
+|   [ft_str_is_unique_chars](my_functions/ft_str_is_unique_chars.c)  |  |
