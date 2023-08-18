@@ -8,7 +8,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Functions PART 1  (24 / 24)   | Prototype        |
+| Functions PART 1 (24 / 24)   | Prototype        |
 |------------------|---------------------|
 | [ft_atoi](part_1/ft_atoi.c) | `int	ft_atoi(const char *str);` |
 |  [ft_bzero](part_1/ft_bzero.c)   | `void	ft_bzero(void *s, size_t n);` |
@@ -39,7 +39,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Functions PART 2 ( 6 / 10)    | Prototype        |
+| Functions PART 2 (6 / 10)    | Prototype        |
 |------------------|---------------------|
 |   [ft_itoa](part_2/ft_itoa.c)  | `char	*ft_itoa(int n);` |
 |    [ft_putchar_fd](part_2/ft_putchar_fd.c) | `void	ft_putchar_fd(char c, int fd);` |
