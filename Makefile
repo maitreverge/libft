@@ -1,49 +1,113 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
+#    Updated: 2023/08/19 23:15:58 by nope             ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = libft.a
 CC = gcc
 LIB = libft.h
 CFLAGS = -Wall -Wextra -Werror -include $(LIB)
 
-SRC_PART_1 = $(wildcard part_1/*.c)
-SRC_PART_2 = $(wildcard part_2/*.c)
-SRC_MY_FUNCTIONS = $(wildcard my_functions/*.c)
-SRC_BONUS = $(wildcard bonus/*.c)
+SRC_DIR = src
 
-STD_SRC = $(SRC_PART_1) $(SRC_PART_2) $(SRC_MY_FUNCTIONS)
-ALL_SRC = $(SRC_PART_1) $(SRC_PART_2) $(SRC_MY_FUNCTIONS) $(SRC_BONUS)
+SRC = $(addprefix $(SRC_DIR)/, \
+	ft_memset.c \
+	ft_bzero.c \
+	ft_memcpy.c \
+	ft_memccpy.c \
+	ft_memmove.c \
+	ft_memchr.c \
+	ft_memcmp.c \
+	ft_strlen.c \
+	ft_isalpha.c \
+	ft_isdigit.c \
+	ft_isalnum.c \
+	ft_isascii.c \
+	ft_isprint.c \
+	ft_toupper.c \
+	ft_tolower.c \
+	ft_strchr.c \
+	ft_strncmp.c \
+	ft_strlcpy.c \
+	ft_strlcat.c \
+	ft_strnstr.c \
+	ft_atoi.c \
+	ft_calloc.c \
+	ft_strdup.c \
+	ft_substr.c \
+	ft_strjoin.c \
+	ft_strtrim.c \
+	ft_split.c \
+	ft_itoa.c \
+	ft_strmapi.c \
+	ft_putchar_fd.c \
+	ft_putstr_fd.c \
+	ft_putendl_fd.c \
+	ft_putnbr_fd.c \
+	ft_strrchr.c \
+	ft_strncpy.c \
+	ft_strndup.c \
+	ft_newstr.c \
+	ft_abs.c \
+	ft_countwords.c \
+	ft_intlen.c \
+	ft_isblank.c \
+	ft_iscntrl.c \
+	ft_isgraph.c \
+	ft_islower.c \
+	ft_isspace.c \
+	ft_isupper.c \
+	ft_isxdigit.c \
+	ft_newstr.c \
+	ft_power.c \
+	ft_str_is_alpha.c \
+	ft_str_is_lowercase.c \
+	ft_str_is_numeric.c \
+	ft_str_is_printable.c \
+	ft_str_is_uppercase.c \
+	ft_strcapitalize.c \
+	ft_strcasecmp.c \
+	ft_strcasestr.c \
+	ft_strlowcase.c \
+	ft_strncasecmp.c \
+	ft_strstrupcase.c \
+	ft_strtok.c \
+	ft_str_is_unique_chars.c )
+	
+SRC_BONUS = $(addprefix $(SRC_DIR)/, \
+	ft_lstnew.c \
+	ft_lstadd_front.c \
+	ft_lstsize.c \
+	ft_lstlast.c \
+	ft_lstadd_back.c \
+	ft_lstdelone.c \
+	ft_lstclear.c \
+	ft_lstiter.c \
+	ft_lstmap.c )
 
-OBJ_PART_1 = $(patsubst part_1/%.c, objects/%.o, $(SRC_PART_1))
-OBJ_PART_2 = $(patsubst part_2/%.c, objects/%.o, $(SRC_PART_2))
-OBJ_MY_FUNCTIONS = $(patsubst my_functions/%.c, objects/%.o, $(SRC_MY_FUNCTIONS))
-OBJ_BONUS = $(patsubst bonus/%.c, objects/%.o, $(SRC_BONUS))
-
-STD_OBJ = $(OBJ_PART_1) $(OBJ_PART_2) $(OBJ_MY_FUNCTIONS)
-ALL_OBJ = $(OBJ_PART_1) $(OBJ_PART_2) $(OBJ_MY_FUNCTIONS) $(OBJ_BONUS)
+OBJ = $(patsubst $(SRC_DIR)/%.c,$(SRC_DIR)/%.o,$(SRC))
+OBJ_BONUS = $(patsubst $(SRC_DIR)/%.c,$(SRC_DIR)/%.o,$(SRC_BONUS))
 
 all : $(NAME)
 
-$(NAME) : $(STD_OBJ)
-	ar rc $(NAME) $(STD_OBJ)
+$(NAME) : $(OBJ)
+	ar rcs $(NAME) $(OBJ)
 
 bonus : $(OBJ_BONUS)
-	ar rc $(NAME) $(OBJ_BONUS)
+	ar rcs $(NAME) $(OBJ_BONUS)
 
-objects/%.o : part_1/%.c | objects
-	$(CC) $(CFLAGS) -c $< -o $@
-
-objects/%.o : part_2/%.c | objects
-	$(CC) $(CFLAGS) -c $< -o $@
-
-objects/%.o : my_functions/%.c | objects
-	$(CC) $(CFLAGS) -c $< -o $@
-
-objects/%.o : bonus/%.c | objects
-	$(CC) $(CFLAGS) -c $< -o $@
-
-objects :
-	mkdir -p objects
+$(SRC_DIR)/%.o : $(SRC_DIR)/%.c
+	$(CC) $(CFLAGS) -c $< -I. -o $@
 
 clean :
-	rm -rf objects
+	rm -f $(OBJ) $(OBJ_BONUS)
 
 fclean : clean
 	rm -f $(NAME)
