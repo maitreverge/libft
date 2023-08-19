@@ -6,7 +6,7 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/08/19 23:15:58 by nope             ###   ########.fr        #
+#    Updated: 2023/08/19 23:26:35 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -99,9 +99,11 @@ all : $(NAME)
 
 $(NAME) : $(OBJ)
 	ar rcs $(NAME) $(OBJ)
+	ranlib $(NAME)
 
 bonus : $(OBJ_BONUS)
 	ar rcs $(NAME) $(OBJ_BONUS)
+	ranlib $(NAME)
 
 $(SRC_DIR)/%.o : $(SRC_DIR)/%.c
 	$(CC) $(CFLAGS) -c $< -I. -o $@
