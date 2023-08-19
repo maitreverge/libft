@@ -6,15 +6,15 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 13:34:42 by nope              #+#    #+#             */
-/*   Updated: 2023/08/18 00:20:04 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/19 22:21:11 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-int	ft_isspace(char c)
+int	ft_isspace(int c)
 {
-	if ((c >= 9 && c <= 13) || c == ' ')
+	if ((c >= 9 && c <= 13) || c == 32)
 		return (1);
 	else
 		return (0);
