@@ -91,7 +91,7 @@
 |   [ft_str_is_lowercase](src/ft_str_is_lowercase.c)  | `int	ft_str_is_lowercase(char *str);` |
 |   [ft_str_is_digit](src/ft_str_is_digit.c)  | `int	ft_str_is_digit(char *str);` |
 |   [ft_str_is_printable](src/ft_str_is_printable.c)  | `int	ft_str_is_printable(char *str);` |
-|   [ft_str_is_unique_chars](src/ft_str_is_unique_chars.c)  |  |
+|   [ft_str_is_unique_chars](src/ft_str_is_unique_chars.c)  | `int	ft_str_is_unique_chars(char *str);` |
 |   [ft_str_is_uppercase](src/ft_str_is_uppercase.c)  | `int	ft_str_is_uppercase(char *str);` |
 |   [ft_strcapitalize](src/ft_strcapitalize.c)  |  |
 |   [ft_strcasecmp](src/ft_strcasecmp.c)  |  |
