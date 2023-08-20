@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 13:35:19 by nope              #+#    #+#             */
-/*   Updated: 2023/08/20 16:16:06 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/20 16:34:22 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strcapitalize(char *str)
 
 	i = 0;
 	if (!str || !str[0])
-		return (str);
+		return (NULL);
 	new_str = ft_strdup(str);
 	if (ft_islower(new_str[i]) == 1)
 		new_str[i] -= 32;

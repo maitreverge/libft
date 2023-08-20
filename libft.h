@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/08/20 16:12:32 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/20 17:37:04 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -116,7 +116,7 @@ int	ft_str_is_uppercase(char *str);
 char	*ft_strcapitalize(char *str);
 //  ft_strcasecmp
 //  ft_strcasestr
-//  ft_strlowcase
+char	*ft_strlowcase(char *str);
 //  ft_strncasecmp
 char	*ft_strncpy(char *dest, char const *src, size_t n);
 char	*ft_strndup(const char *s1, size_t n);

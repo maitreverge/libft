@@ -1,14 +1,14 @@
 # libft
 
-![Progress](https://progress-bar.dev/62/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/65/?scale=100&width=800&color=babaca&suffix=%)
 
-45/70
+46/70
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Functions PART 1 (24 / 24)   | Prototype        |
+| PART 1 (24 / 24) | Prototype        |
 |------------------|---------------------|
 | [ft_atoi](srcs/ft_atoi.c) | `int	ft_atoi(const char *str);` |
 |  [ft_bzero](srcs/ft_bzero.c)   | `void	ft_bzero(void *s, size_t n);` |
@@ -39,7 +39,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Functions PART 2 (6 / 10)    | Prototype        |
+| PART 2 (6 / 10)    | Prototype        |
 |------------------|---------------------|
 |   [ft_itoa](srcs/ft_itoa.c)  | `char	*ft_itoa(int n);` |
 |    [ft_putchar_fd](srcs/ft_putchar_fd.c) | `void	ft_putchar_fd(char c, int fd);` |
@@ -72,7 +72,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| My Functions (15 / 27)    | Prototype        |    
+| My Functions (16 / 27)    | Prototype        |    
 |------------------|---------------------|
 |   [ft_abs](srcs/ft_abs.c)  | `int	ft_abs(int c);` |
 |   [ft_countwords](srcs/ft_countwords.c)  |  |
@@ -96,7 +96,7 @@
 |   [ft_strcapitalize](srcs/ft_strcapitalize.c)  | `char	*ft_strcapitalize(char *str)` |
 |   [ft_strcasecmp](srcs/ft_strcasecmp.c)  |  |
 |   [ft_strcasestr](srcs/ft_strcasestr.c)  |  |
-|   [ft_strlowcase](srcs/ft_strlowcase.c)  |  |
+|   [ft_strlowcase](srcs/ft_strlowcase.c)  | `char	*ft_strlowcase(char *str);` |
 |   [ft_strncasecmp](srcs/ft_strncasecmp.c)  |  |
 |   [ft_strncpy](srcs/ft_strncpy.c)  | `char	*ft_strncpy(char *dest, char const *src, size_t n);` |
 |   [ft_strndup](srcs/ft_strndup.c)  | `char	*ft_strndup(const char *s1, size_t n);` |
