@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 17:42:49 by nope              #+#    #+#             */
-/*   Updated: 2023/08/17 17:42:54 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/20 18:13:17 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,7 @@ void	*ft_memccpy(void *restrict dst,
 	{
 		*p_dst = *p_src;
 		if (*p_src == char_c)
-		{
 			return (p_dst + 1);
-		}
 		i++;
 		p_src++;
 		p_dst++;

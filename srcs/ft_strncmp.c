@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 18:07:49 by nope              #+#    #+#             */
-/*   Updated: 2023/08/17 13:39:03 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/20 18:15:42 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	{
 		if (s1[i] != s2[i])
 			return ((unsigned char)s1[i] - (unsigned char)s2[i]);
-		else
-			i++;
+		i++;
 	}
 	return (0);
 }
