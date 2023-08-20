@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/08/20 11:53:51 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/20 11:55:58 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,7 +110,7 @@ void	ft_putchar(char c);
 int	ft_str_is_alpha(char *str);
 int	ft_str_is_lowercase(char *str);
 int	ft_str_is_digit(char *str);
-//  ft_str_is_printable
+int	ft_str_is_printable(char *str);
 //  ft_str_is_unique_chars
 int	ft_str_is_uppercase(char *str);
 //  ft_strcapitalize
