@@ -1,8 +1,8 @@
 # libft
 
-![Progress](https://progress-bar.dev/54/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/62/?scale=100&width=800&color=babaca&suffix=%)
 
-43/70
+44/70
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -72,7 +72,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| My Functions (13 / 27)    | Prototype        |    
+| My Functions (14 / 27)    | Prototype        |    
 |------------------|---------------------|
 |   [ft_abs](src/ft_abs.c)  | `int	ft_abs(int c);` |
 |   [ft_countwords](src/ft_countwords.c)  |  |
