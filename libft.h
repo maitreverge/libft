@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/08/18 00:44:30 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/20 11:21:58 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,7 +94,7 @@ int ft_lstsize(t_list *lst);
 //              MY FUNCTIONS            //
 //////////////////////////////////////////
 
-//  ft_abs
+int	ft_abs(int c);
 //  ft_countwords
 //  ft_intlen
 //  ft_isblank
