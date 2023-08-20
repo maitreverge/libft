@@ -2,7 +2,7 @@
 
 ![Progress](https://progress-bar.dev/54/?scale=100&width=800&color=babaca&suffix=%)
 
-41/70
+42/70
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -72,7 +72,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| My Functions (11 / 27)    | Prototype        |    
+| My Functions (12 / 27)    | Prototype        |    
 |------------------|---------------------|
 |   [ft_abs](src/ft_abs.c)  | `int	ft_abs(int c);` |
 |   [ft_countwords](src/ft_countwords.c)  |  |
@@ -92,7 +92,7 @@
 |   [ft_str_is_digit](src/ft_str_is_digit.c)  | `int	ft_str_is_digit(char *str);` |
 |   [ft_str_is_printable](src/ft_str_is_printable.c)  |  |
 |   [ft_str_is_unique_chars](src/ft_str_is_unique_chars.c)  |  |
-|   [ft_str_is_uppercase](src/ft_str_is_uppercase.c)  |  |
+|   [ft_str_is_uppercase](src/ft_str_is_uppercase.c)  | `int	ft_str_is_uppercase(char *str);` |
 |   [ft_strcapitalize](src/ft_strcapitalize.c)  |  |
 |   [ft_strcasecmp](src/ft_strcasecmp.c)  |  |
 |   [ft_strcasestr](src/ft_strcasestr.c)  |  |
