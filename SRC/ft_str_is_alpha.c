@@ -6,8 +6,24 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 13:35:01 by nope              #+#    #+#             */
-/*   Updated: 2023/08/17 13:35:03 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/20 11:32:32 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
+
+int	ft_str_is_alpha(char *str)
+{
+	int	i;
+
+	i = 0;
+	if (!str)
+		return (0);
+	while (str[i])
+	{
+		if (ft_isalpha(str[i]) == 0)
+			return (0);
+		i++;
+	}
+	return (1);
+}

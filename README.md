@@ -2,7 +2,7 @@
 
 ![Progress](https://progress-bar.dev/54/?scale=100&width=800&color=babaca&suffix=%)
 
-38/70
+39/70
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -72,7 +72,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| My Functions (8 / 27)    | Prototype        |    
+| My Functions (9 / 27)    | Prototype        |    
 |------------------|---------------------|
 |   [ft_abs](src/ft_abs.c)  | `int	ft_abs(int c`) |
 |   [ft_countwords](src/ft_countwords.c)  |  |
@@ -87,7 +87,7 @@
 |   [ft_newstr](src/ft_newstr.c)  | `char	*ft_newstr(size_t size);` |
 |   [ft_putchar](src/ft_putchar.c)  | `void	ft_putchar(char c);` |
 |   [ft_power](src/ft_power.c)  |  |
-|   [ft_str_is_alpha](src/ft_str_is_alpha.c)  |  |
+|   [ft_str_is_alpha](src/ft_str_is_alpha.c)  | `int	ft_str_is_alpha(char *str)` |
 |   [ft_str_is_lowercase](src/ft_str_is_lowercase.c)  |  |
 |   [ft_str_is_numeric](src/ft_str_is_numeric.c)  |  |
 |   [ft_str_is_printable](src/ft_str_is_printable.c)  |  |
