@@ -6,7 +6,7 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/08/20 12:38:26 by nope             ###   ########.fr        #
+#    Updated: 2023/08/20 15:57:42 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -69,7 +69,7 @@ SRC = $(addprefix $(SRC_DIR)/, \
 	ft_power.c \
 	ft_str_is_alpha.c \
 	ft_str_is_lowercase.c \
-	ft_str_is_numeric.c \
+	ft_str_is_digit.c \
 	ft_str_is_printable.c \
 	ft_str_is_uppercase.c \
 	ft_strcapitalize.c \
