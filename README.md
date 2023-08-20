@@ -77,7 +77,7 @@
 |   [ft_abs](srcs/ft_abs.c)  | `int	ft_abs(int c);` |
 |   [ft_countwords](srcs/ft_countwords.c)  |  |
 |   [ft_intlen](srcs/ft_intlen.c)  |  |
-|   [ft_isblank](srcs/ft_isblank.c)  |  |
+|   [ft_isblank](srcs/ft_isblank.c)  | `int	isblank(int c);` |
 |   [ft_iscntrl](srcs/ft_iscntrl.c)  |  |
 |   [ft_isgraph](srcs/ft_isgraph.c)  |  |
 |   [ft_islower](srcs/ft_islower.c)  | `int	ft_islower(int c);` |
