@@ -6,7 +6,7 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/08/19 23:26:35 by nope             ###   ########.fr        #
+#    Updated: 2023/08/20 12:38:26 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ CC = gcc
 LIB = libft.h
 CFLAGS = -Wall -Wextra -Werror -include $(LIB)
 
-SRC_DIR = src
+SRC_DIR = srcs
 
 SRC = $(addprefix $(SRC_DIR)/, \
 	ft_memset.c \
