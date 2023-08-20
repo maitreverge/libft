@@ -86,7 +86,7 @@
 |   [ft_isxdigit](srcs/ft_isxdigit.c)  |  |
 |   [ft_newstr](srcs/ft_newstr.c)  | `char	*ft_newstr(size_t size);` |
 |   [ft_putchar](srcs/ft_putchar.c)  | `void	ft_putchar(char c);` |
-|   [ft_power](srcs/ft_power.c)  |  |
+|   [ft_power](srcs/ft_power.c)  | `long	ft_power(int nb, int power);` |
 |   [ft_str_is_alpha](srcs/ft_str_is_alpha.c)  | `int	ft_str_is_alpha(char *str);` |
 |   [ft_str_is_lowercase](srcs/ft_str_is_lowercase.c)  | `int	ft_str_is_lowercase(char *str);` |
 |   [ft_str_is_digit](srcs/ft_str_is_digit.c)  | `int	ft_str_is_digit(char *str);` |

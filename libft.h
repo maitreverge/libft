@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/08/20 17:37:04 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/20 18:00:30 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,7 +106,7 @@ int	ft_isupper(int c);
 //  ft_isxdigit -> ishexa
 char	*ft_newstr(size_t size);
 void	ft_putchar(char c);
-//  ft_power
+long	ft_power(int nb, int power);
 int	ft_str_is_alpha(char *str);
 int	ft_str_is_lowercase(char *str);
 int	ft_str_is_digit(char *str);
