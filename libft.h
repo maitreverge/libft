@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/08/20 18:08:37 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/20 18:48:59 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,7 +96,7 @@ int ft_lstsize(t_list *lst);
 
 int	ft_abs(int c);
 //  ft_countwords
-//  ft_intlen
+int	ft_intlen(int i); // FUNCTION TO TEST WITH DONE ITOA
 int	isblank(int c);
 //  ft_iscntrl
 //  ft_isgraph

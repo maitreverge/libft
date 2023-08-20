@@ -51,12 +51,6 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# My Files
-master_main.c
-.DS_Store/
-.DS_Store
-main.c
-
 # VIM: Temperory files
 *~
 
@@ -64,4 +58,9 @@ main.c
 [._]*.s[a-w][a-z]
 [._]s[a-w][a-z]
 
+# My Files
+master_main.c
+.DS_Store
+main.c
 Makefile copy
+test.c
