@@ -2,7 +2,7 @@
 
 ![Progress](https://progress-bar.dev/54/?scale=100&width=800&color=babaca&suffix=%)
 
-39/70
+40/70
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -72,9 +72,9 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| My Functions (9 / 27)    | Prototype        |    
+| My Functions (10 / 27)    | Prototype        |    
 |------------------|---------------------|
-|   [ft_abs](src/ft_abs.c)  | `int	ft_abs(int c`) |
+|   [ft_abs](src/ft_abs.c)  | `int	ft_abs(int c);` |
 |   [ft_countwords](src/ft_countwords.c)  |  |
 |   [ft_intlen](src/ft_intlen.c)  |  |
 |   [ft_isblank](src/ft_isblank.c)  |  |
@@ -82,13 +82,13 @@
 |   [ft_isgraph](src/ft_isgraph.c)  |  |
 |   [ft_islower](src/ft_islower.c)  | `int	ft_islower(int c);` |
 |   [ft_isspace](src/ft_isspace.c)  | `int	ft_isspace(int c);` |
-|   [ft_isupper](src/ft_isupper.c)  | `int	ft_isupper(int c)` |
+|   [ft_isupper](src/ft_isupper.c)  | `int	ft_isupper(int c);` |
 |   [ft_isxdigit](src/ft_isxdigit.c)  |  |
 |   [ft_newstr](src/ft_newstr.c)  | `char	*ft_newstr(size_t size);` |
 |   [ft_putchar](src/ft_putchar.c)  | `void	ft_putchar(char c);` |
 |   [ft_power](src/ft_power.c)  |  |
-|   [ft_str_is_alpha](src/ft_str_is_alpha.c)  | `int	ft_str_is_alpha(char *str)` |
-|   [ft_str_is_lowercase](src/ft_str_is_lowercase.c)  |  |
+|   [ft_str_is_alpha](src/ft_str_is_alpha.c)  | `int	ft_str_is_alpha(char *str);` |
+|   [ft_str_is_lowercase](src/ft_str_is_lowercase.c)  | `int	ft_str_is_lowercase(char *str);` |
 |   [ft_str_is_numeric](src/ft_str_is_numeric.c)  |  |
 |   [ft_str_is_printable](src/ft_str_is_printable.c)  |  |
 |   [ft_str_is_unique_chars](src/ft_str_is_unique_chars.c)  |  |
