@@ -1,8 +1,8 @@
 # libft
 
-![Progress](https://progress-bar.dev/75/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/77/?scale=100&width=800&color=babaca&suffix=%)
 
-53/70
+54/70
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -71,10 +71,10 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-| My Functions (22 / 27)    | Prototype        |
+| My Functions (23 / 27)    | Prototype        |
 |------------------|---------------------|
 |   [ft_abs](srcs/ft_abs.c)  | `int	ft_abs(int c);` |
-|   [ft_countwords](srcs/ft_countwords.c)  |  |
+|   [ft_countwords](srcs/ft_countwords.c)  | `size_t count_words(char const *str, char c);` |
 |   [ft_intlen](srcs/ft_intlen.c)  | `int	ft_intlen(int n);` |
 |   [ft_isblank](srcs/ft_isblank.c)  | `int	isblank(int c);` |
 |   [ft_iscntrl](srcs/ft_iscntrl.c)  | `int	ft_iscntrl(int c);` |

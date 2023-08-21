@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/08/21 11:38:40 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/21 14:59:00 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,7 +95,7 @@ int ft_lstsize(t_list *lst);
 //////////////////////////////////////////
 
 int	ft_abs(int c);
-//  ft_countwords
+size_t count_words(char const *str, char c); // Need test deletion
 int	ft_intlen(int n);
 int	isblank(int c);
 int	ft_iscntrl(int c);
