@@ -6,66 +6,30 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/20 18:18:53 by nope              #+#    #+#             */
-/*   Updated: 2023/08/20 18:48:31 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/21 11:38:13 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-int	recursive_intlen(int i, int factor)
+int	ft_intlen(int n)
 {
-	if (i / (factor) > 0)
-		return (ft_strlen(ft_itoa(factor)));
-	return (recursive_intlen(i, factor / 10));
-}
+	size_t		i;
 
-int	ft_intlen(int i)
-{
-	int	factor;
-	
-	factor = 100000000;
-	
-	return (recursive_intlen(ft_abs(i), factor));
+	i = 0;
+	if (n == 0)
+		i++;
+	while (n != 0)
+	{
+		n = n / 10;
+		i++;
+	}
+	return (i);
 }
 
 /*
 
-	Function to test once ft_itoa will be done
+This function does not care about the polarity,
+as '-' sign won't be counter as part of the int len.
 
-	#include <stdio.h>
-#include <stdlib.h>
-
-int	ft_abs(int c)
-{
-	if (c < 0)
-		return (-c);
-	return (c);
-}
-
-int	recursive_intlen(int i, int factor)
-{
-	if (i / (factor) > 0)
-		return (ft_strlen(ft_itoa(factor)));
-	return (recursive_intlen(i, factor / 10));
-}
-
-int	ft_intlen(int i)
-{
-	int	factor;
-	
-	factor = 100000000;
-	
-	return (recursive_intlen(ft_abs(i), factor));
-}
-
-int	main(int ac, char **av)
-{
-	if (ac >1)
-	{
-	printf("Result of %i = %i", atoi(av[1]), ft_intlen(atoi(av[1])));
-	}
-	else
-	printf("Wrong usage");
-}
-	
 */
