@@ -1,8 +1,8 @@
 # libft
 
-![Progress](https://progress-bar.dev/68/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/70/?scale=100&width=800&color=babaca&suffix=%)
 
-48/70
+49/70
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -71,14 +71,14 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-| My Functions (17 / 27)    | Prototype        |
+| My Functions (18 / 27)    | Prototype        |
 |------------------|---------------------|
 |   [ft_abs](srcs/ft_abs.c)  | `int	ft_abs(int c);` |
 |   [ft_countwords](srcs/ft_countwords.c)  |  |
 |   [ft_intlen](srcs/ft_intlen.c)  | `int	ft_intlen(int i);` |
 |   [ft_isblank](srcs/ft_isblank.c)  | `int	isblank(int c);` |
 |   [ft_iscntrl](srcs/ft_iscntrl.c)  | `int	ft_iscntrl(int c);` |
-|   [ft_isgraph](srcs/ft_isgraph.c)  |  |
+|   [ft_isgraph](srcs/ft_isgraph.c)  | `int	ft_isgraph(int c)` |
 |   [ft_islower](srcs/ft_islower.c)  | `int	ft_islower(int c);` |
 |   [ft_isspace](srcs/ft_isspace.c)  | `int	ft_isspace(int c);` |
 |   [ft_isupper](srcs/ft_isupper.c)  | `int	ft_isupper(int c);` |
