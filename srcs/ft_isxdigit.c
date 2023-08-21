@@ -6,8 +6,21 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 13:34:50 by nope              #+#    #+#             */
-/*   Updated: 2023/08/17 13:34:51 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/21 11:08:13 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
+
+int	ft_isxdigit(int c)
+{
+	if (ft_isdigit(c) == 1 || c >= 'a' && c <= 'f' || c >= 'A' && c <= 'F')
+		return (1);
+	return (0);
+}
+
+/*
+
+Function checks if the given char is 0123456789 || [ABCDEF] || [abcdef]
+
+*/

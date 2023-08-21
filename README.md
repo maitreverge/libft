@@ -1,8 +1,8 @@
 # libft
 
-![Progress](https://progress-bar.dev/70/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/75/?scale=100&width=800&color=babaca&suffix=%)
 
-49/70
+53/70
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -71,7 +71,7 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-| My Functions (18 / 27)    | Prototype        |
+| My Functions (22 / 27)    | Prototype        |
 |------------------|---------------------|
 |   [ft_abs](srcs/ft_abs.c)  | `int	ft_abs(int c);` |
 |   [ft_countwords](srcs/ft_countwords.c)  |  |
@@ -82,7 +82,7 @@
 |   [ft_islower](srcs/ft_islower.c)  | `int	ft_islower(int c);` |
 |   [ft_isspace](srcs/ft_isspace.c)  | `int	ft_isspace(int c);` |
 |   [ft_isupper](srcs/ft_isupper.c)  | `int	ft_isupper(int c);` |
-|   [ft_isxdigit](srcs/ft_isxdigit.c)  |  |
+|   [ft_isxdigit](srcs/ft_isxdigit.c)  | `int	ft_isxdigit(int c);` |
 |   [ft_newstr](srcs/ft_newstr.c)  | `char	*ft_newstr(size_t size);` |
 |   [ft_putchar](srcs/ft_putchar.c)  | `void	ft_putchar(char c);` |
 |   [ft_power](srcs/ft_power.c)  | `long	ft_power(int nb, int power);` |

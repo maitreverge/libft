@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/08/21 10:21:26 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/21 11:08:49 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -103,7 +103,7 @@ int	ft_isgraph(int c);
 int	ft_islower(int c);
 int ft_isspace(int c);
 int	ft_isupper(int c);
-//  ft_isxdigit -> ishexa
+int	ft_isxdigit(int c);
 char	*ft_newstr(size_t size);
 void	ft_putchar(char c);
 long	ft_power(int nb, int power);
