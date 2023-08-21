@@ -1,5 +1,11 @@
 # libft
 
+<p align="center">
+  <img src="https://github.com/mcombeau/mcombeau/blob/main/42_badges/libfte.png" />
+</p>
+
+[Consider paying a visit to mcombeau for those awesome logos :) ](https://github.com/mcombeau)
+
 ![Progress](https://progress-bar.dev/77/?scale=100&width=800&color=babaca&suffix=%)
 
 54/70
