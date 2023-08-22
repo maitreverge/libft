@@ -80,7 +80,7 @@
 | My Functions (23 / 27)    | Prototype        |
 |------------------|---------------------|
 |   [ft_abs](srcs/ft_abs.c)  | `int	ft_abs(int c);` |
-|   [ft_countwords](srcs/ft_countwords.c)  | `size_t count_words(char const *str, char c);` |
+|   [ft_countwords](srcs/ft_countwords.c)  | `size_t	ft_countwords(char const *str, char c)` |
 |   [ft_intlen](srcs/ft_intlen.c)  | `int	ft_intlen(int n);` |
 |   [ft_isblank](srcs/ft_isblank.c)  | `int	isblank(int c);` |
 |   [ft_iscntrl](srcs/ft_iscntrl.c)  | `int	ft_iscntrl(int c);` |

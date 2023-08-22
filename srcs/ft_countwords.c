@@ -6,13 +6,13 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/21 11:45:58 by nope              #+#    #+#             */
-/*   Updated: 2023/08/21 14:58:22 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/22 11:52:31 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-size_t	count_words(char const *str, char c)
+size_t	ft_countwords(char const *str, char c)
 {
 	size_t	result;
 	int		i;
