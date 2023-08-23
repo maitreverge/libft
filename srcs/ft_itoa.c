@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 22:31:24 by nope              #+#    #+#             */
-/*   Updated: 2023/08/21 10:03:25 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/23 17:43:30 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,6 @@ static size_t	dynamic_alloc(int n)
 
 static char	*alloc_check(char *buffer, long *number, long *i)
 {
-	if (!buffer)
-		return (NULL);
 	if (*number <= 0)
 	{
 		if (*number == 0)
@@ -45,6 +43,16 @@ static char	*alloc_check(char *buffer, long *number, long *i)
 	return (buffer);
 }
 
+static void	correct_j(long *j, long *number)
+{
+	while (*j > 0)
+	{
+		if (*number / *j != 0)
+			break ;
+		(*j) /= 10;
+	}
+}
+
 char	*ft_itoa(int n)
 {
 	char	*buffer;
@@ -56,13 +64,10 @@ char	*ft_itoa(int n)
 	i = 0;
 	j = 1000000000;
 	buffer = ft_newstr(dynamic_alloc(n));
+	if (!buffer)
+		return (NULL);
 	alloc_check(buffer, &number, &i);
-	while (j > 0)
-	{
-		if (number / j != 0)
-			break ;
-		j /= 10;
-	}
+	correct_j(&j, &number);
 	while (j > 0)
 	{
 		buffer[i] = (number / j) + '0';

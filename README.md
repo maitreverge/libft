@@ -6,9 +6,9 @@
 
 [Consider paying a visit to mcombeau for those awesome logos :) ](https://github.com/mcombeau)
 
-![Progress](https://progress-bar.dev/77/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/78/?scale=100&width=800&color=babaca&suffix=%)
 
-54/70
+55/70
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -45,7 +45,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| PART 2 (7 / 10)    | Prototype        |
+| PART 2 (8 / 10)    | Prototype        |
 |------------------|---------------------|
 |   [ft_itoa](srcs/ft_itoa.c)  | `char	*ft_itoa(int n);` |
 |    [ft_putchar_fd](srcs/ft_putchar_fd.c) | `void	ft_putchar_fd(char c, int fd);` |
