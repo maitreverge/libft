@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/08/22 11:53:20 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/23 17:20:41 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ int		ft_toupper(int c);
 //          PART_2 FUNCTIONS            //
 //////////////////////////////////////////
 
-char	*ft_itoa(int n);
+char	*ft_itoa(int n); // needs hot fix
 void	ft_putchar_fd(char c, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
