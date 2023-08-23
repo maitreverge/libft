@@ -17,7 +17,7 @@ char * + modifs possibles
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| PART 1 (24 / 24) | Prototype        | [https://github.com/0x050f/libft-war-machine](libft_war_machine) | [https://github.com/alelievr/libft-unit-test](libft_tester) |
+| PART 1 (24 / 24) | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester]([https://github.com/alelievr/libft-unit-test]) |
 |------------------|---------------------|---------|---------|
 | [ft_atoi](srcs/ft_atoi.c) | `int ft_atoi(const char *str);` | ✅ | ✅ |
 | [ft_bzero](srcs/ft_bzero.c) | `void ft_bzero(void *s, size_t n);` | ✅ | ✅ |
