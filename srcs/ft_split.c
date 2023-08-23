@@ -6,79 +6,46 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/10 13:03:16 by nope              #+#    #+#             */
-/*   Updated: 2023/08/20 22:24:37 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/23 16:40:59 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-// Function to count the number of words in a string
-static unsigned int count_words(char const *s, char c)
+static void allocation(char **buffer, char const *s, char c, size_t len_s)
 {
-    unsigned int count = 0;
-    int is_word = 0;
-
-    while (*s)
-    {
-        if (*s != c)
-        {
-            if (!is_word)
-            {
-                is_word = 1;
-                count++;
-            }
-        }
-        else
-            is_word = 0;
-        s++;
-    }
-
-    return count;
-}
-
-// Function to allocate memory and populate the buffer array
-static void allocation(char **buffer, char const *s, char c)
-{
-    unsigned int i = 0;
-    unsigned int j = 0;
-    unsigned int start = 0;
+    size_t i = 0; // index de s[i]
+    size_t j = 0; // index de copie du buffer
+    size_t start = 0; 
 
     while (s[i])
     {
-        if (s[i] != c)
+        if (s[i] != c && s[i])
         {
-            if (start == 0)
-                start = i;
+            start = i;
+            while (s[i] != c && s[i])
+                i++;
         }
-        else
+        if (j < len_s)
         {
-            if (start != 0)
-            {
-                buffer[j] = (char *)malloc(sizeof(char) * (i - start + 1));
-                ft_strncpy(buffer[j], s + start, i - start);
-                buffer[j][i - start] = '\0';
-                j++;
-                start = 0;
-            }
+            buffer[j] = ft_calloc(sizeof(char), (i - start + 1));
+            if (!buffer[j])
+                return ;
+            ft_strncpy(buffer[j], &s[start], i - start);
+            j++;
         }
-        i++;
-    }
-    if (start != i)
-    {
-        buffer[j] = (char *)malloc(sizeof(char) * (i - start + 1));
-        ft_strncpy(buffer[j], s + start, i - start);
-        buffer[j][i - start] = '\0';
-		j++;
-    }
+        while (s[i] == c && s[i])
+            i++;
+	}
 }
-// Function to split a string into an array of substrings
+
 char **ft_split(char const *s, char c)
 {
-    unsigned int len_s = count_words(s, c);
-    char **buffer = (char **)malloc(sizeof(char *) * (len_s + 1));
+    size_t len_s = ft_countwords(s, c);
+    char **buffer = (char **)ft_calloc(sizeof(char *), (len_s + 1));
     if (!buffer)
         return NULL;
-    allocation(buffer, s, c);
-    buffer[len_s] = NULL;
+    allocation(buffer, s, c, len_s);
+    //buffer[len_s] = NULL;  no need for this line, because we called calloc on the first place my maaaaaaan
     return buffer;
 }
