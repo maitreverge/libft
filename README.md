@@ -82,33 +82,35 @@ char * + modifs possibles
 
 From now, some of my custom functions might need further testing
 
-| My Functions (25 / 28)    | Prototype        |
-|------------------|---------------------|
-|   [ft_abs](srcs/ft_abs.c)  | `int	ft_abs(int c);` |
-|   [ft_countwords](srcs/ft_countwords.c)  | `size_t	ft_countwords(char const *str, char c)` |
-|   [ft_intlen](srcs/ft_intlen.c)  | `int	ft_intlen(int n);` |
-|   [ft_isblank](srcs/ft_isblank.c)  | `int	isblank(int c);` |
-|   [ft_iscntrl](srcs/ft_iscntrl.c)  | `int	ft_iscntrl(int c);` |
-|   [ft_isgraph](srcs/ft_isgraph.c)  | `int	ft_isgraph(int c)` |
-|   [ft_islower](srcs/ft_islower.c)  | `int	ft_islower(int c);` |
-|   [ft_isspace](srcs/ft_isspace.c)  | `int	ft_isspace(int c);` |
-|   [ft_isupper](srcs/ft_isupper.c)  | `int	ft_isupper(int c);` |
-|   [ft_isxdigit](srcs/ft_isxdigit.c)  | `int	ft_isxdigit(int c);` |
-|   [ft_newstr](srcs/ft_newstr.c)  | `char	*ft_newstr(size_t size);` |
-|   [ft_putchar](srcs/ft_putchar.c)  | `void	ft_putchar(char c);` |
-|   [ft_power](srcs/ft_power.c)  | `long	ft_power(int nb, int power);` |
-|   [ft_str_is_alpha](srcs/ft_str_is_alpha.c)  | `int	ft_str_is_alpha(char *str);` |
-|   [ft_str_is_lowercase](srcs/ft_str_is_lowercase.c)  | `int	ft_str_is_lowercase(char *str);` |
-|   [ft_str_is_digit](srcs/ft_str_is_digit.c)  | `int	ft_str_is_digit(char *str);` |
-|   [ft_str_is_printable](srcs/ft_str_is_printable.c)  | `int	ft_str_is_printable(char *str);` |
-|   [ft_str_is_unique_chars](srcs/ft_str_is_unique_chars.c)  | `int	ft_str_is_unique_chars(char *str);` |
-|   [ft_str_is_uppercase](srcs/ft_str_is_uppercase.c)  | `int	ft_str_is_uppercase(char *str);` |
-|   [ft_strcapitalize](srcs/ft_strcapitalize.c)  | `char	*ft_strcapitalize(char *str)` |
-|   [ft_strcasecmp](srcs/ft_strcasecmp.c)  | `int	ft_strcasecmp(char *s1, char *s2)` |
-|   [ft_strcasestr](srcs/ft_strcasestr.c)  |  |
-|   [ft_strlowcase](srcs/ft_strlowcase.c)  | `char	*ft_strlowcase(char *str);` |
-|   [ft_strncasecmp](srcs/ft_strncasecmp.c)  |  |
-|   [ft_strncpy](srcs/ft_strncpy.c)  | `char	*ft_strncpy(char *dest, char const *src, size_t n);` |
-|   [ft_strndup](srcs/ft_strndup.c)  | `char	*ft_strndup(const char *s1, size_t n);` |
-|   [ft_strtok](srcs/ft_strtok.c)  |  |
-|   [ft_strcmp](srcs/ft_strcmp.c)  | `int	ft_strcmp(char *s1, char *s2)` |
+
+| My Functions (25 / 28)    | Prototype        | Check   |
+|------------------|---------------------|---------|
+| [ft_abs](srcs/ft_abs.c)  | `int ft_abs(int c);` | ❌ |
+| [ft_countwords](srcs/ft_countwords.c)  | `size_t ft_countwords(char const *str, char c)` | ❌ |
+| [ft_intlen](srcs/ft_intlen.c)  | `int ft_intlen(int n);` | ❌ |
+| [ft_isblank](srcs/ft_isblank.c)  | `int isblank(int c);` | ❌ |
+| [ft_iscntrl](srcs/ft_iscntrl.c)  | `int ft_iscntrl(int c);` | ❌ |
+| [ft_isgraph](srcs/ft_isgraph.c)  | `int ft_isgraph(int c)` | ❌ |
+| [ft_islower](srcs/ft_islower.c)  | `int ft_islower(int c);` | ❌ |
+| [ft_isspace](srcs/ft_isspace.c)  | `int ft_isspace(int c);` | ❌ |
+| [ft_isupper](srcs/ft_isupper.c)  | `int ft_isupper(int c);` | ❌ |
+| [ft_isxdigit](srcs/ft_isxdigit.c)  | `int ft_isxdigit(int c);` | ❌ |
+| [ft_newstr](srcs/ft_newstr.c)  | `char *ft_newstr(size_t size);` | ❌ |
+| [ft_putchar](srcs/ft_putchar.c)  | `void ft_putchar(char c);` | ❌ |
+| [ft_power](srcs/ft_power.c)  | `long ft_power(int nb, int power);` | ❌ |
+| [ft_str_is_alpha](srcs/ft_str_is_alpha.c)  | `int ft_str_is_alpha(char *str);` | ❌ |
+| [ft_str_is_lowercase](srcs/ft_str_is_lowercase.c)  | `int ft_str_is_lowercase(char *str);` | ❌ |
+| [ft_str_is_digit](srcs/ft_str_is_digit.c)  | `int ft_str_is_digit(char *str);` | ❌ |
+| [ft_str_is_printable](srcs/ft_str_is_printable.c)  | `int ft_str_is_printable(char *str);` | ❌ |
+| [ft_str_is_unique_chars](srcs/ft_str_is_unique_chars.c)  | `int ft_str_is_unique_chars(char *str);` | ❌ |
+| [ft_str_is_uppercase](srcs/ft_str_is_uppercase.c)  | `int ft_str_is_uppercase(char *str);` | ❌ |
+| [ft_strcapitalize](srcs/ft_strcapitalize.c)  | `char *ft_strcapitalize(char *str)` | ❌ |
+| [ft_strcasecmp](srcs/ft_strcasecmp.c)  | `int ft_strcasecmp(char *s1, char *s2)` | ❌ |
+| [ft_strcasestr](srcs/ft_strcasestr.c)  | | ❌ |
+| [ft_strlowcase](srcs/ft_strlowcase.c)  | `char *ft_strlowcase(char *str);` | ❌ |
+| [ft_strncasecmp](srcs/ft_strncasecmp.c)  | | ❌ |
+| [ft_strncpy](srcs/ft_strncpy.c)  | `char *ft_strncpy(char *dest, char const *src, size_t n);` | ❌ |
+| [ft_strndup](srcs/ft_strndup.c)  | `char *ft_strndup(const char *s1, size_t n);` | ❌ |
+| [ft_strtok](srcs/ft_strtok.c)  | | ❌ |
+| [ft_strcmp](srcs/ft_strcmp.c)  | `int ft_strcmp(char *s1, char *s2)` | ✅ |
+
