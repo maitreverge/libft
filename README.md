@@ -6,9 +6,9 @@
 
 [Consider paying a visit to mcombeau for thoses awesomes 42 projects logos :) ](https://github.com/mcombeau)
 
-![Progress](https://progress-bar.dev/80/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/81/?scale=100&width=800&color=babaca&suffix=%)
 
-57/71
+58/71
 
 char const * = pas de modifs
 char * + modifs possibles
@@ -67,7 +67,7 @@ char * + modifs possibles
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Bonus Functions (0 / 9)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
+| Bonus Functions (1 / 9)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
 |------------------|---------------------|---------|---------|
 | [ft_lstadd_back](srcs/ft_lstadd_back.c) | | ❌ | ❌ |
 | [ft_lstadd_front](srcs/ft_lstadd_front.c) | | ❌ | ❌ |
@@ -77,7 +77,7 @@ char * + modifs possibles
 | [ft_lstlast](srcs/ft_lstlast.c) | | ❌ | ❌ |
 | [ft_lstmap](srcs/ft_lstmap.c) | | ❌ | ❌ |
 | [ft_lstnew](srcs/ft_lstnew.c) | | ❌ | ❌ |
-| [ft_lstsize](srcs/ft_lstsize.c) | | ❌ | ❌ |
+| [ft_lstsize](srcs/ft_lstsize.c) | | ✅ | ✅ |
 
 
 

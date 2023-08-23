@@ -6,8 +6,21 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 13:33:27 by nope              #+#    #+#             */
-/*   Updated: 2023/08/17 13:33:29 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/23 23:45:40 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
+
+int	ft_lstsize(t_list *lst)
+{
+	int	i;
+
+	i = 0;
+	while (lst != NULL)
+	{
+		i++;
+		lst = lst->next;
+	}
+	return (i);
+}
