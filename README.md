@@ -17,9 +17,9 @@ char * + modifs possibles
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| PART 1 (24 / 24) | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester]([https://github.com/alelievr/libft-unit-test]) |
+| PART 1 (24 / 24) | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
 |------------------|---------------------|---------|---------|
-| [ft_atoi](srcs/ft_atoi.c) | `int ft_atoi(const char *str);` | ✅ | ✅ |
+| [ft_atoi](srcs/ft_atoi.c) | `int ft_atoi(const char *str);` | ✅ | 🟠 |
 | [ft_bzero](srcs/ft_bzero.c) | `void ft_bzero(void *s, size_t n);` | ✅ | ✅ |
 | [ft_calloc](srcs/ft_calloc.c) | `void *ft_calloc(size_t count, size_t size);` | ✅ | ✅ |
 | [ft_isalnum](srcs/ft_isalnum.c) | `int ft_isalnum(int c);` | ✅ | ✅ |
@@ -35,7 +35,7 @@ char * + modifs possibles
 | [ft_memset](srcs/ft_memset.c) | `void *ft_memset(void *b, int c, size_t len);` | ✅ | ✅ |
 | [ft_strchr](srcs/ft_strchr.c) | `char *ft_strchr(const char *s, int c);` | ✅ | ✅ |
 | [ft_strdup](srcs/ft_strdup.c) | `char *ft_strdup(const char *s1);` | ✅ | ✅ |
-| [ft_strlcat](srcs/ft_strlcat.c) | `size_t ft_strlcat(char *dst, const char *src, size_t dstsize);` | ✅ | ✅ |
+| [ft_strlcat](srcs/ft_strlcat.c) | `size_t ft_strlcat(char *dst, const char *src, size_t dstsize);` | ✅ | ❌ |
 | [ft_strlcpy](srcs/ft_strlcpy.c) | `size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);` | ✅ | ✅ |
 | [ft_strlen](srcs/ft_strlen.c) | `size_t ft_strlen(const char *s);` | ✅ | ✅ |
 | [ft_strncmp](srcs/ft_strncmp.c) | `int ft_strncmp(const char *s1, const char *s2, size_t n);` | ✅ | ✅ |
@@ -49,34 +49,36 @@ char * + modifs possibles
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| PART 2 (8 / 10)    | Prototype        |
-|------------------|---------------------|
-|   [ft_itoa](srcs/ft_itoa.c)  | `char	*ft_itoa(int n);` |
-|    [ft_putchar_fd](srcs/ft_putchar_fd.c) | `void	ft_putchar_fd(char c, int fd);` |
-|   [ft_putendl_fd](srcs/ft_putendl_fd.c)  | `void	ft_putendl_fd(char *s, int fd);` |
-|   [ft_putnbr_fd](srcs/ft_putnbr_fd.c) | `void	ft_putnbr_fd(int n, int fd);` |
-|   [ft_putstr_fd](srcs/ft_putstr_fd.c)  | `void	ft_putstr_fd(char *s, int fd);` |
-|   [ft_split](srcs/ft_split.c)  | `char	**ft_split(char const *s, char c)`; |
-|   [ft_strjoin](srcs/ft_strjoin.c)  | `char	*ft_strjoin(char const *s1, char const *s2);` |
-|    [ft_strmapi](srcs/ft_strmapi.c) | `char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));` |
-|   [ft_strtrim](srcs/ft_strtrim.c)  | `char	*ft_strtrim(char const *s1, char const *set);` |
-|   [ft_substr](srcs/ft_substr.c)  | `char	*ft_substr(char const *s, unsigned int start, size_t len);` |
+| PART 2 (8 / 10)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
+|------------------|---------------------|---------|---------|
+| [ft_itoa](srcs/ft_itoa.c) | `char *ft_itoa(int n);` | ✅ | ❌ |
+| [ft_putchar_fd](srcs/ft_putchar_fd.c) | `void ft_putchar_fd(char c, int fd);` | ✅ | ✅ |
+| [ft_putendl_fd](srcs/ft_putendl_fd.c) | `void ft_putendl_fd(char *s, int fd);` | ✅ | ✅ |
+| [ft_putnbr_fd](srcs/ft_putnbr_fd.c) | `void ft_putnbr_fd(int n, int fd);` | ✅ | ✅ |
+| [ft_putstr_fd](srcs/ft_putstr_fd.c) | `void ft_putstr_fd(char *s, int fd);` | ✅ | ✅ |
+| [ft_split](srcs/ft_split.c) | `char **ft_split(char const *s, char c);` | ✅ | ✅ |
+| [ft_strjoin](srcs/ft_strjoin.c) | `char *ft_strjoin(char const *s1, char const *s2);` | ✅ | ✅ |
+| [ft_strmapi](srcs/ft_strmapi.c) | `char *ft_strmapi(char const *s, char (*f)(unsigned int, char));` | ❌ | ❌ |
+| [ft_strtrim](srcs/ft_strtrim.c) | `char *ft_strtrim(char const *s1, char const *set);` | ❌ | ❌ |
+| [ft_substr](srcs/ft_substr.c) | `char *ft_substr(char const *s, unsigned int start, size_t len);` | ✅ | ✅ |
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Bonus Functions (0 / 9)    | Prototype        |
-|------------------|---------------------|
-|   [ft_lstadd_back](srcs/ft_lstadd_back.c)  |  |
-|   [ft_lstadd_front](srcs/ft_lstadd_front.c)  |  |
-|   [ft_lstclear](srcs/ft_lstclear.c)  |  |
-|   [ft_lstdelone](srcs/ft_lstdelone.c)  |  |
-|   [ft_lstiter](srcs/ft_lstiter.c)  |  |
-|   [ft_lstlast](srcs/ft_lstlast.c)  |  |
-|   [ft_lstmap](srcs/ft_lstmap.c)  |  |
-|   [ft_lstnew](srcs/ft_lstnew.c)  |  |
-|   [ft_lstsize](srcs/ft_lstsize.c)  |  |
+| Bonus Functions (0 / 9)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
+|------------------|---------------------|---------|---------|
+| [ft_lstadd_back](srcs/ft_lstadd_back.c) | | ❌ | ❌ |
+| [ft_lstadd_front](srcs/ft_lstadd_front.c) | | ❌ | ❌ |
+| [ft_lstclear](srcs/ft_lstclear.c) | | ❌ | ❌ |
+| [ft_lstdelone](srcs/ft_lstdelone.c) | | ❌ | ❌ |
+| [ft_lstiter](srcs/ft_lstiter.c) | | ❌ | ❌ |
+| [ft_lstlast](srcs/ft_lstlast.c) | | ❌ | ❌ |
+| [ft_lstmap](srcs/ft_lstmap.c) | | ❌ | ❌ |
+| [ft_lstnew](srcs/ft_lstnew.c) | | ❌ | ❌ |
+| [ft_lstsize](srcs/ft_lstsize.c) | | ❌ | ❌ |
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -84,7 +86,7 @@ char * + modifs possibles
 From now, some of my custom functions might need further testing
 
 
-| My Functions (25 / 28)    | Prototype        | Check   |
+| My Functions (25 / 28)    | Prototype        | My tests   |
 |------------------|---------------------|---------|
 | [ft_abs](srcs/ft_abs.c)  | `int ft_abs(int c);` | ❌ |
 | [ft_countwords](srcs/ft_countwords.c)  | `size_t ft_countwords(char const *str, char c)` | ❌ |
