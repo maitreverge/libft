@@ -4,11 +4,14 @@
   <img src="https://github.com/mcombeau/mcombeau/blob/main/42_badges/libfte.png" />
 </p>
 
-[Consider paying a visit to mcombeau for those awesome logos :) ](https://github.com/mcombeau)
+[Consider paying a visit to mcombeau for thoses awesomes 42 projects logos :) ](https://github.com/mcombeau)
 
-![Progress](https://progress-bar.dev/78/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/80/?scale=100&width=800&color=babaca&suffix=%)
 
-55/70
+57/71
+
+char const * = pas de modifs
+char * + modifs possibles
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -77,7 +80,9 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-| My Functions (23 / 27)    | Prototype        |
+From now, some of my custom functions might need further testing
+
+| My Functions (25 / 28)    | Prototype        |
 |------------------|---------------------|
 |   [ft_abs](srcs/ft_abs.c)  | `int	ft_abs(int c);` |
 |   [ft_countwords](srcs/ft_countwords.c)  | `size_t	ft_countwords(char const *str, char c)` |
@@ -99,10 +104,11 @@
 |   [ft_str_is_unique_chars](srcs/ft_str_is_unique_chars.c)  | `int	ft_str_is_unique_chars(char *str);` |
 |   [ft_str_is_uppercase](srcs/ft_str_is_uppercase.c)  | `int	ft_str_is_uppercase(char *str);` |
 |   [ft_strcapitalize](srcs/ft_strcapitalize.c)  | `char	*ft_strcapitalize(char *str)` |
-|   [ft_strcasecmp](srcs/ft_strcasecmp.c)  |  |
+|   [ft_strcasecmp](srcs/ft_strcasecmp.c)  | `int	ft_strcasecmp(char *s1, char *s2)` |
 |   [ft_strcasestr](srcs/ft_strcasestr.c)  |  |
 |   [ft_strlowcase](srcs/ft_strlowcase.c)  | `char	*ft_strlowcase(char *str);` |
 |   [ft_strncasecmp](srcs/ft_strncasecmp.c)  |  |
 |   [ft_strncpy](srcs/ft_strncpy.c)  | `char	*ft_strncpy(char *dest, char const *src, size_t n);` |
 |   [ft_strndup](srcs/ft_strndup.c)  | `char	*ft_strndup(const char *s1, size_t n);` |
 |   [ft_strtok](srcs/ft_strtok.c)  |  |
+|   [ft_strcmp](srcs/ft_strcmp.c)  | `int	ft_strcmp(char *s1, char *s2)` |

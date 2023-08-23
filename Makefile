@@ -6,7 +6,7 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/08/20 15:57:42 by nope             ###   ########.fr        #
+#    Updated: 2023/08/23 19:30:22 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -79,6 +79,7 @@ SRC = $(addprefix $(SRC_DIR)/, \
 	ft_strncasecmp.c \
 	ft_strstrupcase.c \
 	ft_strtok.c \
+	ft_strcmp.c \
 	ft_str_is_unique_chars.c )
 	
 SRC_BONUS = $(addprefix $(SRC_DIR)/, \
