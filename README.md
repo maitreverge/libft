@@ -17,32 +17,33 @@ char * + modifs possibles
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| PART 1 (24 / 24) | Prototype        |
-|------------------|---------------------|
-| [ft_atoi](srcs/ft_atoi.c) | `int	ft_atoi(const char *str);` |
-|  [ft_bzero](srcs/ft_bzero.c)   | `void	ft_bzero(void *s, size_t n);` |
-|   [ft_calloc](srcs/ft_calloc.c)  | `void	*ft_calloc(size_t count, size_t size);` |
-|   [ft_isalnum](srcs/ft_isalnum.c)  | `int	ft_isalnum(int c);` |
-|   [ft_isalpha](srcs/ft_isalpha.c)  | `int	ft_isalpha(int c);` |
-|  [ft_isascii](srcs/ft_isascii.c)    | `int	ft_isascii(int c);` |
-|    [ft_isdigit](srcs/ft_isdigit.c) | `int	ft_isdigit(int c);` |
-|  [ft_isprint](srcs/ft_isprint.c)   | `int	ft_isprint(int c);` |
-|   [ft_memccpy](srcs/ft_memccpy.c)  | `void	*ft_memccpy(void *dst, const void *src, int c, size_t n);` |
-|  [ft_memchr](srcs/ft_memchr.c)   | `void	*ft_memchr(const void *s, int c, size_t n);` |
-|  [ft_memcmp](srcs/ft_memcmp.c)   | `int ft_memcmp(const void *s1, const void *s2, size_t n);` |
-|   [ft_memcpy](srcs/ft_memcpy.c)  | `void	*ft_memcpy(void *dest, const void *src, size_t n);` |
-|  [ft_memmove](srcs/ft_memmove.c)   | `void	*ft_memmove(void *dst, const void *src, size_t len);` |
-| [ft_memset](srcs/ft_memset.c)    |`void	*ft_memset(void *b, int c, size_t len);` |
-|   [ft_strchr](srcs/ft_strchr.c)  | `char	*ft_strchr(const char *s, int c);` |
-|   [ft_strdup](srcs/ft_strdup.c)  | `char	*ft_strdup(const char *s1);` |
-|   [ft_strlcat](srcs/ft_strlcat.c)  | `size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);` |
-|   [ft_strlcpy](srcs/ft_strlcpy.c)  | `size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);` |
-|  [ft_strlen](srcs/ft_strlen.c)   | `size_t	ft_strlen(const char *s);` |
-|   [ft_strncmp](srcs/ft_strncmp.c)  | `int	ft_strncmp(const char *s1, const char *s2, size_t n);` |
-|   [ft_strnstr](srcs/ft_strnstr.c)  | `char	*ft_strnstr(const char *haystack, const char *needle, size_t len);` |
-|   [ft_strrchr](srcs/ft_strrchr.c)  | `char	*ft_strrchr(const char *s, int c);` |
-|   [ft_tolower](srcs/ft_tolower.c)  | `int	ft_tolower(int c);` |
-|   [ft_toupper](srcs/ft_toupper.c)  | `int	ft_toupper(int c);` |
+| PART 1 (24 / 24) | Prototype        | [https://github.com/0x050f/libft-war-machine](libft_war_machine) | [https://github.com/alelievr/libft-unit-test](libft_tester) |
+|------------------|---------------------|---------|---------|
+| [ft_atoi](srcs/ft_atoi.c) | `int ft_atoi(const char *str);` | ✅ | ✅ |
+| [ft_bzero](srcs/ft_bzero.c) | `void ft_bzero(void *s, size_t n);` | ✅ | ✅ |
+| [ft_calloc](srcs/ft_calloc.c) | `void *ft_calloc(size_t count, size_t size);` | ✅ | ✅ |
+| [ft_isalnum](srcs/ft_isalnum.c) | `int ft_isalnum(int c);` | ✅ | ✅ |
+| [ft_isalpha](srcs/ft_isalpha.c) | `int ft_isalpha(int c);` | ✅ | ✅ |
+| [ft_isascii](srcs/ft_isascii.c) | `int ft_isascii(int c);` | ✅ | ✅ |
+| [ft_isdigit](srcs/ft_isdigit.c) | `int ft_isdigit(int c);` | ✅ | ✅ |
+| [ft_isprint](srcs/ft_isprint.c) | `int ft_isprint(int c);` | ✅ | ✅ |
+| [ft_memccpy](srcs/ft_memccpy.c) | `void *ft_memccpy(void *dst, const void *src, int c, size_t n);` | ✅ | ✅ |
+| [ft_memchr](srcs/ft_memchr.c) | `void *ft_memchr(const void *s, int c, size_t n);` | ✅ | ✅ |
+| [ft_memcmp](srcs/ft_memcmp.c) | `int ft_memcmp(const void *s1, const void *s2, size_t n);` | ✅ | ✅ |
+| [ft_memcpy](srcs/ft_memcpy.c) | `void *ft_memcpy(void *dest, const void *src, size_t n);` | ✅ | ✅ |
+| [ft_memmove](srcs/ft_memmove.c) | `void *ft_memmove(void *dst, const void *src, size_t len);` | ✅ | ✅ |
+| [ft_memset](srcs/ft_memset.c) | `void *ft_memset(void *b, int c, size_t len);` | ✅ | ✅ |
+| [ft_strchr](srcs/ft_strchr.c) | `char *ft_strchr(const char *s, int c);` | ✅ | ✅ |
+| [ft_strdup](srcs/ft_strdup.c) | `char *ft_strdup(const char *s1);` | ✅ | ✅ |
+| [ft_strlcat](srcs/ft_strlcat.c) | `size_t ft_strlcat(char *dst, const char *src, size_t dstsize);` | ✅ | ✅ |
+| [ft_strlcpy](srcs/ft_strlcpy.c) | `size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);` | ✅ | ✅ |
+| [ft_strlen](srcs/ft_strlen.c) | `size_t ft_strlen(const char *s);` | ✅ | ✅ |
+| [ft_strncmp](srcs/ft_strncmp.c) | `int ft_strncmp(const char *s1, const char *s2, size_t n);` | ✅ | ✅ |
+| [ft_strnstr](srcs/ft_strnstr.c) | `char *ft_strnstr(const char *haystack, const char *needle, size_t len);` | ✅ | ✅ |
+| [ft_strrchr](srcs/ft_strrchr.c) | `char *ft_strrchr(const char *s, int c);` | ✅ | ✅ |
+| [ft_tolower](srcs/ft_tolower.c) | `int ft_tolower(int c);` | ✅ | ✅ |
+| [ft_toupper](srcs/ft_toupper.c) | `int ft_toupper(int c);` | ✅ | ✅ |
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
