@@ -6,9 +6,9 @@
 
 [Consider paying a visit to mcombeau for thoses awesomes 42 projects logos :) ](https://github.com/mcombeau)
 
-![Progress](https://progress-bar.dev/83/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/84/?scale=100&width=800&color=babaca&suffix=%)
 
-59/71
+60/71
 
 char const * = pas de modifs
 
@@ -50,7 +50,7 @@ char * = modifs possibles
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| PART 2 (8 / 10)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
+| PART 2 (9 / 10)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
 |------------------|---------------------|---------|---------|
 | [ft_itoa](srcs/ft_itoa.c) | `char *ft_itoa(int n);` | ✅ | ❌ |
 | [ft_putchar_fd](srcs/ft_putchar_fd.c) | `void ft_putchar_fd(char c, int fd);` | ✅ | ✅ |
@@ -60,7 +60,7 @@ char * = modifs possibles
 | [ft_split](srcs/ft_split.c) | `char **ft_split(char const *s, char c);` | ✅ | ✅ |
 | [ft_strjoin](srcs/ft_strjoin.c) | `char *ft_strjoin(char const *s1, char const *s2);` | ✅ | ✅ |
 | [ft_strmapi](srcs/ft_strmapi.c) | `char *ft_strmapi(char const *s, char (*f)(unsigned int, char));` | ❌ | ❌ |
-| [ft_strtrim](srcs/ft_strtrim.c) | `char *ft_strtrim(char const *s1, char const *set);` | ❌ | ❌ |
+| [ft_strtrim](srcs/ft_strtrim.c) | `char *ft_strtrim(char const *s1, char const *set);` | ✅ | ✅ |
 | [ft_substr](srcs/ft_substr.c) | `char *ft_substr(char const *s, unsigned int start, size_t len);` | ✅ | ✅ |
 
 
