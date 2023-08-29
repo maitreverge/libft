@@ -12,7 +12,7 @@
 
 char const * = pas de modifs
 
-char * + modifs possibles
+char * = modifs possibles
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
