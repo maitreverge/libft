@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 08:58:08 by nope              #+#    #+#             */
-/*   Updated: 2023/08/18 00:21:08 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/29 18:55:45 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,12 @@ int	ft_atoi(const char *str)
 	if (str[i] == '+' || str[i] == '-')
 	{
 		if (str[i] == '-')
-			polarity = (polarity * -1);
+			polarity *= -1;
 		i++;
 	}
 	while (ft_isdigit(str[i]) == 1)
 	{
-		result = (10 * result) + (str[i] - 48);
+		result = (10 * result) + (str[i] - '0');
 		i++;
 	}
 	return (polarity * result);
