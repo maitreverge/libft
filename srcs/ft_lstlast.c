@@ -6,8 +6,19 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 13:33:15 by nope              #+#    #+#             */
-/*   Updated: 2023/08/17 13:33:17 by nope             ###   ########.fr       */
+/*   Updated: 2023/08/29 12:17:40 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
+
+t_list	*ft_lstlast(t_list *lst)
+{
+	while (lst)
+	{
+		if (!lst->next)
+			return (lst);
+		lst = lst->next;
+	}
+	return (lst);
+}
