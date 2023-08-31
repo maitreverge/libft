@@ -70,15 +70,15 @@ char * = modifs possibles
 
 | Bonus Functions (2 / 9)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
 |------------------|---------------------|---------|---------|
-| [ft_lstadd_back](srcs/ft_lstadd_back.c) | | ❌ | ❌ |
-| [ft_lstadd_front](srcs/ft_lstadd_front.c) | | ❌ | ❌ |
-| [ft_lstclear](srcs/ft_lstclear.c) | | ❌ | ❌ |
-| [ft_lstdelone](srcs/ft_lstdelone.c) | | ❌ | ❌ |
-| [ft_lstiter](srcs/ft_lstiter.c) | | ❌ | ❌ |
-| [ft_lstlast](srcs/ft_lstlast.c) | `t_list	*ft_lstlast(t_list *lst)` | ✅ | ✅ |
-| [ft_lstmap](srcs/ft_lstmap.c) | | ❌ | ❌ |
-| [ft_lstnew](srcs/ft_lstnew.c) | | ❌ | ❌ |
-| [ft_lstsize](srcs/ft_lstsize.c) | `int	ft_lstsize(t_list *lst)` | ✅ | ✅ |
+| [ft_lstadd_back](srcs/ft_lstadd_back_bonus.c) | | ❌ | ❌ |
+| [ft_lstadd_front](srcs/ft_lstadd_front_bonus.c) | | ❌ | ❌ |
+| [ft_lstclear](srcs/ft_lstclear_bonus.c) | | ❌ | ❌ |
+| [ft_lstdelone](srcs/ft_lstdelone_bonus.c) | | ❌ | ❌ |
+| [ft_lstiter](srcs/ft_lstiter_bonus.c) | | ❌ | ❌ |
+| [ft_lstlast](srcs/ft_lstlast_bonus.c) | `t_list	*ft_lstlast(t_list *lst)` | ✅ | ✅ |
+| [ft_lstmap](srcs/ft_lstmap_bonus.c) | | ❌ | ❌ |
+| [ft_lstnew](srcs/ft_lstnew_bonus.c) | | ❌ | ❌ |
+| [ft_lstsize](srcs/ft_lstsize_bonus.c) | `int	ft_lstsize(t_list *lst)` | ✅ | ✅ |
 
 
 
