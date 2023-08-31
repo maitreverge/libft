@@ -6,7 +6,7 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/08/23 19:30:22 by nope             ###   ########.fr        #
+#    Updated: 2023/08/31 22:38:55 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -83,15 +83,15 @@ SRC = $(addprefix $(SRC_DIR)/, \
 	ft_str_is_unique_chars.c )
 	
 SRC_BONUS = $(addprefix $(SRC_DIR)/, \
-	ft_lstnew.c \
-	ft_lstadd_front.c \
-	ft_lstsize.c \
-	ft_lstlast.c \
-	ft_lstadd_back.c \
-	ft_lstdelone.c \
-	ft_lstclear.c \
-	ft_lstiter.c \
-	ft_lstmap.c )
+	ft_lstnew_bonus.c \
+	ft_lstadd_front_bonus.c \
+	ft_lstsize_bonus.c \
+	ft_lstlast_bonus.c \
+	ft_lstadd_back_bonus.c \
+	ft_lstdelone_bonus.c \
+	ft_lstclear_bonus.c \
+	ft_lstiter_bonus.c \
+	ft_lstmap_bonus.c )
 
 OBJ = $(patsubst $(SRC_DIR)/%.c,$(SRC_DIR)/%.o,$(SRC))
 OBJ_BONUS = $(patsubst $(SRC_DIR)/%.c,$(SRC_DIR)/%.o,$(SRC_BONUS))
