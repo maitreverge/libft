@@ -66,3 +66,4 @@ Makefile copy
 test.c
 test
 sujet_libft.pdf
+function_test.c
