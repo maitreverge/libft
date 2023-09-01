@@ -29,3 +29,36 @@ int	main (void)
 
 }
 
+	  //////////////////////////////////////////
+	 //         FUNCTION    COUNT_WORD       //
+	//////////////////////////////////////////
+
+ int	main(void)
+{
+	char s1 = ""; 
+	char s2 = "c";
+	char s3 = "co";
+	char s4 = "COUCOU";
+	char s5 = "COUCOU BANDE";
+	char s6 = "COUCOU BANDE DE";
+	char s7 = "COUCOU BANDE DE GROSSEs SALOPES";
+	char s8 = " COUCOU BANDE DE GROSSEs SALOPES";
+	char s9 = "COUCOU BANDE DE GROSSEs SALOPES ";
+	char s10 = "COUCOU BANDE DE GROSSEs SALOPES ";
+	char s11 = " COUCOU  BANDE  DE  GROSSEs  SALOPES ";
+	char s12 = "  COUCOU   BANDE   DE   GROSSEs   SALOPES  ";
+	char s13 = " ";
+	char s14 = " c ";
+	char s15 = "     c   ";
+	char s16 = "c             c                c";
+	char\n\nResult of s11 = %i\n\n--------\n\n", count_words(s11, c));
+	printf("Result is supposed to be 5\n\nResult of s12= %i\n\n--------\n\n", count_words(s12, c));
+	printf("Result is supposed to be 0\n\nResult of s13 = %i\n\n--------\n\n", count_words(s13, c));
+	printf("Result is supposed to be 1\n\nResult of s14 = %i\n\n--------\n\n", count_words(s14, c));
+	printf("Result is supposed to be 1\n\nResult of s15 = %i\n\n--------\n\n", count_words(s15, c));
+	printf("Result is supposed to be 3\n\nResult of s16 = %i\n\n--------\n\n", count_words(s16, c));
+	printf("Result is supposed to be 0\n\nResult of s17 = %i\n\n--------\n\n", count_words(s17, c));
+	printf("Result is supposed to be 1\n\nResult of s18 = %i\n\n--------\n\n", count_words(s18, c));
+	printf("Result is supposed to be 1\n\nResult of s19 = %i\n\n--------\n\n", count_words(s19, c));
+}
+*/
