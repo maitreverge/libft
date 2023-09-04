@@ -6,9 +6,9 @@
 
 [Consider paying a visit to mcombeau for thoses awesomes 42 projects logos :) ](https://github.com/mcombeau)
 
-![Progress](https://progress-bar.dev/88/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/90/?scale=100&width=800&color=babaca&suffix=%)
 
-64/72
+65/72
 
 char const * = pas de modifs
 
@@ -69,9 +69,9 @@ char * = modifs possibles
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Bonus Functions (4 / 9)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
+| Bonus Functions (5 / 9)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
 |------------------|---------------------|---------|---------|
-| [ft_lstadd_back](ft_lstadd_back_bonus.c) | | ❌ | ❌ |
+| [ft_lstadd_back](ft_lstadd_back_bonus.c) | `void	ft_lstadd_back(t_list **lst, t_list *new);` | ✅ | ✅ |
 | [ft_lstadd_front](ft_lstadd_front_bonus.c) | `void	ft_lstadd_front(t_list **lst, t_list *new);` | ✅ | ✅ |
 | [ft_lstclear](ft_lstclear_bonus.c) | | ❌ | ❌ |
 | [ft_lstdelone](ft_lstdelone_bonus.c) | | ❌ | ❌ |
