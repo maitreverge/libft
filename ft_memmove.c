@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 10:23:20 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:14:35 by nope             ###   ########.fr       */
+/*   Updated: 2023/09/04 14:55:16 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,30 +14,22 @@
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	const char	*src_ptr;
-	size_t		i;
-	char		*dest_ptr;
+	unsigned char	*d;
+	unsigned char	*s;
 
-	dest_ptr = (char *)dst;
-	src_ptr = (const char *)src;
-	if (dest_ptr > src_ptr)
+	d = (unsigned char *)dst;
+	s = (unsigned char *)src;
+	if (!dst && !src)
+		return (dst);
+	if (src < dst)
+		while (len--)
+			d[len] = s[len];
+	else
 	{
-		i = len;
-		while (i > 0)
-		{
-			--i;
-			dest_ptr[i] = src_ptr[i];
-		}
+		while (len--)
+			*d++ = *s++;
 	}
-	else if (dest_ptr < src_ptr)
-	{
-		i = 0;
-		while (i < len)
-		{
-			dest_ptr[i] = src_ptr[i];
-			++i;
-		}
-	}
+	return (dst);
 	return (dst);
 }
 
