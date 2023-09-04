@@ -6,7 +6,7 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/09/04 13:08:19 by nope             ###   ########.fr        #
+#    Updated: 2023/09/04 13:21:39 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -89,9 +89,9 @@ SRC_BONUS = ft_lstnew_bonus.c \
 	ft_lstiter_bonus.c \
 	ft_lstmap_bonus.c
 
-OBJ = $(%.c,%.o,$(SRC))
-OBJ_BONUS = $(%.c,%.o,$(SRC_BONUS))
-
+OBJ = $(SRC:.c=.o)
+OBJ_BONUS = $(SRC_BONUS:.c=.o)
+	
 all : $(NAME)
 
 $(NAME) : $(OBJ)
@@ -99,8 +99,8 @@ $(NAME) : $(OBJ)
 	ranlib $(NAME)
 
 bonus : $(OBJ_BONUS)
-	ar rcs $(NAME) $(OBJ_BONUS)
-	ranlib $(NAME)
+	ar rcs $(NAME)_bonus $(OBJ_BONUS)
+	ranlib $(NAME)_bonus
 
 %.o : %.c
 	$(CC) $(CFLAGS) -c $< -I. -o $@
