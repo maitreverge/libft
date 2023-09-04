@@ -6,7 +6,7 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/08/31 22:38:55 by nope             ###   ########.fr        #
+#    Updated: 2023/09/04 13:08:19 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,10 +15,7 @@ CC = gcc
 LIB = libft.h
 CFLAGS = -Wall -Wextra -Werror -include $(LIB)
 
-SRC_DIR = srcs
-
-SRC = $(addprefix $(SRC_DIR)/, \
-	ft_memset.c \
+SRC = ft_memset.c \
 	ft_bzero.c \
 	ft_memcpy.c \
 	ft_memccpy.c \
@@ -80,10 +77,9 @@ SRC = $(addprefix $(SRC_DIR)/, \
 	ft_strstrupcase.c \
 	ft_strtok.c \
 	ft_strcmp.c \
-	ft_str_is_unique_chars.c )
+	ft_str_is_unique_chars.c
 	
-SRC_BONUS = $(addprefix $(SRC_DIR)/, \
-	ft_lstnew_bonus.c \
+SRC_BONUS = ft_lstnew_bonus.c \
 	ft_lstadd_front_bonus.c \
 	ft_lstsize_bonus.c \
 	ft_lstlast_bonus.c \
@@ -91,10 +87,10 @@ SRC_BONUS = $(addprefix $(SRC_DIR)/, \
 	ft_lstdelone_bonus.c \
 	ft_lstclear_bonus.c \
 	ft_lstiter_bonus.c \
-	ft_lstmap_bonus.c )
+	ft_lstmap_bonus.c
 
-OBJ = $(patsubst $(SRC_DIR)/%.c,$(SRC_DIR)/%.o,$(SRC))
-OBJ_BONUS = $(patsubst $(SRC_DIR)/%.c,$(SRC_DIR)/%.o,$(SRC_BONUS))
+OBJ = $(%.c,%.o,$(SRC))
+OBJ_BONUS = $(%.c,%.o,$(SRC_BONUS))
 
 all : $(NAME)
 
@@ -106,7 +102,7 @@ bonus : $(OBJ_BONUS)
 	ar rcs $(NAME) $(OBJ_BONUS)
 	ranlib $(NAME)
 
-$(SRC_DIR)/%.o : $(SRC_DIR)/%.c
+%.o : %.c
 	$(CC) $(CFLAGS) -c $< -I. -o $@
 
 clean :
