@@ -6,14 +6,13 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/09/04 13:21:39 by nope             ###   ########.fr        #
+#    Updated: 2023/09/04 14:36:16 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 CC = gcc
-LIB = libft.h
-CFLAGS = -Wall -Wextra -Werror -include $(LIB)
+CFLAGS = -Wall -Wextra -Werror -I.
 
 SRC = ft_memset.c \
 	ft_bzero.c \
@@ -77,7 +76,8 @@ SRC = ft_memset.c \
 	ft_strstrupcase.c \
 	ft_strtok.c \
 	ft_strcmp.c \
-	ft_str_is_unique_chars.c
+	ft_str_is_unique_chars.c \
+	ft_striteri.c \
 	
 SRC_BONUS = ft_lstnew_bonus.c \
 	ft_lstadd_front_bonus.c \
@@ -87,28 +87,28 @@ SRC_BONUS = ft_lstnew_bonus.c \
 	ft_lstdelone_bonus.c \
 	ft_lstclear_bonus.c \
 	ft_lstiter_bonus.c \
-	ft_lstmap_bonus.c
+	ft_lstmap_bonus.c \
 
-OBJ = $(SRC:.c=.o)
-OBJ_BONUS = $(SRC_BONUS:.c=.o)
-	
-all : $(NAME)
+OBJ = ${SRC:.c=.o}
+OBJ_BONUS = ${SRC_BONUS:.c=.o}
 
-$(NAME) : $(OBJ)
+all: $(NAME)
+
+$(NAME): $(OBJ)
 	ar rcs $(NAME) $(OBJ)
 	ranlib $(NAME)
 
-bonus : $(OBJ_BONUS)
-	ar rcs $(NAME)_bonus $(OBJ_BONUS)
-	ranlib $(NAME)_bonus
+bonus: $(OBJ_BONUS)
+	ar rcs $(NAME) $(OBJ_BONUS)
+	ranlib $(NAME)
 
-%.o : %.c
-	$(CC) $(CFLAGS) -c $< -I. -o $@
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
 
-clean :
+clean:
 	rm -f $(OBJ) $(OBJ_BONUS)
 
-fclean : clean
+fclean: clean
 	rm -f $(NAME)
 
-re : fclean all
+re: fclean all

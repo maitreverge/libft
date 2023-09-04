@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/08/31 22:11:18 by nope             ###   ########.fr       */
+/*   Updated: 2023/09/04 14:38:07 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,6 +75,7 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
+void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 
 //////////////////////////////////////////
 //          BONUS  FUNCTIONS            //
