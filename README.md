@@ -6,9 +6,9 @@
 
 [Consider paying a visit to mcombeau for thoses awesomes 42 projects logos :) ](https://github.com/mcombeau)
 
-![Progress](https://progress-bar.dev/86/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/87/?scale=100&width=800&color=babaca&suffix=%)
 
-62/72
+63/72
 
 char const * = pas de modifs
 
@@ -69,7 +69,7 @@ char * = modifs possibles
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Bonus Functions (2 / 9)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
+| Bonus Functions (3 / 9)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
 |------------------|---------------------|---------|---------|
 | [ft_lstadd_back](ft_lstadd_back_bonus.c) | | ❌ | ❌ |
 | [ft_lstadd_front](ft_lstadd_front_bonus.c) | | ❌ | ❌ |
@@ -78,7 +78,7 @@ char * = modifs possibles
 | [ft_lstiter](ft_lstiter_bonus.c) | | ❌ | ❌ |
 | [ft_lstlast](ft_lstlast_bonus.c) | `t_list	*ft_lstlast(t_list *lst)` | ✅ | ✅ |
 | [ft_lstmap](ft_lstmap_bonus.c) | | ❌ | ❌ |
-| [ft_lstnew](ft_lstnew_bonus.c) | | ❌ | ❌ |
+| [ft_lstnew](ft_lstnew_bonus.c) | | ✅ | ✅ |
 | [ft_lstsize](ft_lstsize_bonus.c) | `int	ft_lstsize(t_list *lst)` | ✅ | ✅ |
 
 

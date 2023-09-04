@@ -6,7 +6,7 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/09/04 14:36:16 by nope             ###   ########.fr        #
+#    Updated: 2023/09/04 17:20:15 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -77,7 +77,7 @@ SRC = ft_memset.c \
 	ft_strtok.c \
 	ft_strcmp.c \
 	ft_str_is_unique_chars.c \
-	ft_striteri.c \
+	ft_striteri.c
 	
 SRC_BONUS = ft_lstnew_bonus.c \
 	ft_lstadd_front_bonus.c \
@@ -87,7 +87,7 @@ SRC_BONUS = ft_lstnew_bonus.c \
 	ft_lstdelone_bonus.c \
 	ft_lstclear_bonus.c \
 	ft_lstiter_bonus.c \
-	ft_lstmap_bonus.c \
+	ft_lstmap_bonus.c
 
 OBJ = ${SRC:.c=.o}
 OBJ_BONUS = ${SRC_BONUS:.c=.o}
