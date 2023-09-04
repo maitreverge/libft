@@ -6,13 +6,13 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 12:14:06 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:13:21 by nope             ###   ########.fr       */
+/*   Updated: 2023/09/04 19:37:05 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	isblank(int c)
+int	ft_isblank(int c)
 {
 	if (c == '\t' || c == ' ')
 		return (1);

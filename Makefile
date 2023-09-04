@@ -6,7 +6,7 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/09/04 17:20:15 by nope             ###   ########.fr        #
+#    Updated: 2023/09/04 19:37:51 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -60,6 +60,7 @@ SRC = ft_memset.c \
 	ft_islower.c \
 	ft_isspace.c \
 	ft_isupper.c \
+	ft_isblank.c \
 	ft_isxdigit.c \
 	ft_newstr.c \
 	ft_power.c \
