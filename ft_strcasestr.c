@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 13:35:26 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:15:35 by nope             ###   ########.fr       */
+/*   Updated: 2023/09/05 11:38:34 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,9 +43,9 @@ char	*ft_strcasestr(const char *haystack, const char *needle)
 	char	*haystack_low;
 	char	*needle_low;
 
-	if (!haystack || !needle)
+	if (!haystack)
 		return (NULL);
-	if (!needle)
+	if (ft_strlen(needle) == 0)
 		return ((char *)haystack);
 	haystack_low = ft_strdup(haystack);
 	needle_low = ft_strdup(needle);
