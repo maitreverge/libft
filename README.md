@@ -6,9 +6,9 @@
 
 [Consider paying a visit to mcombeau for thoses awesomes 42 projects logos :) ](https://github.com/mcombeau)
 
-![Progress](https://progress-bar.dev/91/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/94/?scale=100&width=800&color=babaca&suffix=%)
 
-65/71
+65/69
 
 char const * = pas de modifs
 
@@ -76,10 +76,10 @@ char * = modifs possibles
 | [ft_lstclear](ft_lstclear_bonus.c) | | ❌ | ❌ |
 | [ft_lstdelone](ft_lstdelone_bonus.c) | | ❌ | ❌ |
 | [ft_lstiter](ft_lstiter_bonus.c) | | ❌ | ❌ |
-| [ft_lstlast](ft_lstlast_bonus.c) | `t_list	*ft_lstlast(t_list *lst)` | ✅ | ✅ |
+| [ft_lstlast](ft_lstlast_bonus.c) | `t_list	*ft_lstlast(t_list *lst);` | ✅ | ✅ |
 | [ft_lstmap](ft_lstmap_bonus.c) | | ❌ | ❌ |
 | [ft_lstnew](ft_lstnew_bonus.c) | | ✅ | ✅ |
-| [ft_lstsize](ft_lstsize_bonus.c) | `int	ft_lstsize(t_list *lst)` | ✅ | ✅ |
+| [ft_lstsize](ft_lstsize_bonus.c) | `int	ft_lstsize(t_list *lst);` | ✅ | ✅ |
 
 
 
@@ -88,14 +88,14 @@ char * = modifs possibles
 From now, some of my custom functions might need further testing
 
 
-| My Functions (25 / 27)    | Prototype        | My tests   |
+| My Functions (25 / 25)    | Prototype        | My tests   |
 |------------------|---------------------|---------|
 | [ft_abs](ft_abs.c)  | `int ft_abs(int c);` | ❌ |
-| [ft_countwords](ft_countwords.c)  | `size_t ft_countwords(char const *str, char c)` | ❌ |
+| [ft_countwords](ft_countwords.c)  | `size_t ft_countwords(char const *str, char c);` | ❌ |
 | [ft_intlen](ft_intlen.c)  | `int ft_intlen(int n);` | ❌ |
 | [ft_isblank](ft_isblank.c)  | `int isblank(int c);` | ✅ |
 | [ft_iscntrl](ft_iscntrl.c)  | `int ft_iscntrl(int c);` | ✅ |
-| [ft_isgraph](ft_isgraph.c)  | `int ft_isgraph(int c)` | ✅ |
+| [ft_isgraph](ft_isgraph.c)  | `int ft_isgraph(int c);` | ✅ |
 | [ft_islower](ft_islower.c)  | `int ft_islower(int c);` | ✅ |
 | [ft_isspace](ft_isspace.c)  | `int ft_isspace(int c);` | ✅ |
 | [ft_isupper](ft_isupper.c)  | `int ft_isupper(int c);` | ✅ |
@@ -109,12 +109,10 @@ From now, some of my custom functions might need further testing
 | [ft_str_is_printable](ft_str_is_printable.c)  | `int ft_str_is_printable(char *str);` | ✅ |
 | [ft_str_is_unique_chars](ft_str_is_unique_chars.c)  | `int ft_str_is_unique_chars(char *str);` | ✅ |
 | [ft_str_is_uppercase](ft_str_is_uppercase.c)  | `int ft_str_is_uppercase(char *str);` | ❌ |
-| [ft_strcasecmp](ft_strcasecmp.c)  | `int ft_strcasecmp(char *s1, char *s2)` | ✅  |
-| [ft_strcasestr](ft_strcasestr.c)  | | ❌ |
+| [ft_strcasecmp](ft_strcasecmp.c)  | `int ft_strcasecmp(char *s1, char *s2);` | ✅  |
+| [ft_strcasestr](ft_strcasestr.c)  | `char	*ft_strcasestr(const char *haystack, const char *needle);` | ❌ |
 | [ft_strlowcase](ft_strlowcase.c)  | `char *ft_strlowcase(char *str);` | ✅ |
-| [ft_strncasecmp](ft_strncasecmp.c)  | | ❌ |
 | [ft_strncpy](ft_strncpy.c)  | `char *ft_strncpy(char *dest, char const *src, size_t n);` | ❌ |
 | [ft_strndup](ft_strndup.c)  | `char *ft_strndup(const char *s1, size_t n);` | ✅ |
-| [ft_strtok](ft_strtok.c)  | | ❌ |
-| [ft_strcmp](ft_strcmp.c)  | `int ft_strcmp(char *s1, char *s2)` | ❌ |
+| [ft_strcmp](ft_strcmp.c)  | `int ft_strcmp(char *s1, char *s2);` | ❌ |
 

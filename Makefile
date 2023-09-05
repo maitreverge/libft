@@ -6,7 +6,7 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/09/05 11:09:28 by nope             ###   ########.fr        #
+#    Updated: 2023/09/05 12:13:22 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -72,9 +72,7 @@ SRC = ft_memset.c \
 	ft_strcasecmp.c \
 	ft_strcasestr.c \
 	ft_strlowcase.c \
-	ft_strncasecmp.c \
 	ft_strstrupcase.c \
-	ft_strtok.c \
 	ft_strcmp.c \
 	ft_str_is_unique_chars.c \
 	ft_striteri.c
