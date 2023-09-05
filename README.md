@@ -81,7 +81,7 @@ From now, some of my custom functions might need further testing
 
 | My Functions (25 / 25)    | Prototype        | My tests   |
 |------------------|---------------------|---------|
-| [ft_abs](ft_abs.c)  | `int ft_abs(int c);` | ❌ |
+| [ft_abs](ft_abs.c)  | `int ft_abs(int c);` | ✅ |
 | [ft_countwords](ft_countwords.c)  | `size_t ft_countwords(char const *str, char c);` | ❌ |
 | [ft_intlen](ft_intlen.c)  | `int ft_intlen(int n);` | ❌ |
 | [ft_isblank](ft_isblank.c)  | `int isblank(int c);` | ✅ |
