@@ -91,8 +91,8 @@ From now, some of my custom functions might need further testing
 | [ft_isspace](ft_isspace.c)  | `int ft_isspace(int c);` | ✅ |
 | [ft_isupper](ft_isupper.c)  | `int ft_isupper(int c);` | ✅ |
 | [ft_isxdigit](ft_isxdigit.c)  | `int ft_isxdigit(int c);` | ✅ |
-| [ft_newstr](ft_newstr.c)  | `char *ft_newstr(size_t size);` | ❌ |
-| [ft_putchar](ft_putchar.c)  | `void ft_putchar(char c);` | ❌ |
+| [ft_newstr](ft_newstr.c)  | `char *ft_newstr(size_t size);` | ✅ |
+| [ft_putchar](ft_putchar.c)  | `void ft_putchar(char c);` | ✅ |
 | [ft_power](ft_power.c)  | `long ft_power(int nb, int power);` | ❌ |
 | [ft_str_is_alpha](ft_str_is_alpha.c)  | `int ft_str_is_alpha(char *str);` | ✅ |
 | [ft_str_is_lowercase](ft_str_is_lowercase.c)  | `int ft_str_is_lowercase(char *str);` | ✅ |
@@ -103,7 +103,7 @@ From now, some of my custom functions might need further testing
 | [ft_strcasecmp](ft_strcasecmp.c)  | `int ft_strcasecmp(char *s1, char *s2);` | ✅  |
 | [ft_strcasestr](ft_strcasestr.c)  | `char	*ft_strcasestr(const char *haystack, const char *needle);` | ❌ |
 | [ft_strlowcase](ft_strlowcase.c)  | `char *ft_strlowcase(char *str);` | ✅ |
-| [ft_strncpy](ft_strncpy.c)  | `char *ft_strncpy(char *dest, char const *src, size_t n);` | ❌ |
+| [ft_strncpy](ft_strncpy.c)  | `char *ft_strncpy(char *dest, char const *src, size_t n);` | ✅ |
 | [ft_strndup](ft_strndup.c)  | `char *ft_strndup(const char *s1, size_t n);` | ✅ |
-| [ft_strcmp](ft_strcmp.c)  | `int ft_strcmp(char *s1, char *s2);` | ❌ |
+| [ft_strcmp](ft_strcmp.c)  | `int ft_strcmp(char *s1, char *s2);` | ✅ |
 
