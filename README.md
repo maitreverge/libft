@@ -6,9 +6,9 @@
 
 [Consider paying a visit to mcombeau for thoses awesomes 42 projects logos :) ](https://github.com/mcombeau)
 
-![Progress](https://progress-bar.dev/90/?scale=100&width=800&color=babaca&suffix=%)
+![Progress](https://progress-bar.dev/91/?scale=100&width=800&color=babaca&suffix=%)
 
-65/72
+65/71
 
 char const * = pas de modifs
 
@@ -88,7 +88,7 @@ char * = modifs possibles
 From now, some of my custom functions might need further testing
 
 
-| My Functions (25 / 28)    | Prototype        | My tests   |
+| My Functions (25 / 27)    | Prototype        | My tests   |
 |------------------|---------------------|---------|
 | [ft_abs](ft_abs.c)  | `int ft_abs(int c);` | ❌ |
 | [ft_countwords](ft_countwords.c)  | `size_t ft_countwords(char const *str, char c)` | ❌ |
@@ -109,7 +109,6 @@ From now, some of my custom functions might need further testing
 | [ft_str_is_printable](ft_str_is_printable.c)  | `int ft_str_is_printable(char *str);` | ✅ |
 | [ft_str_is_unique_chars](ft_str_is_unique_chars.c)  | `int ft_str_is_unique_chars(char *str);` | ✅ |
 | [ft_str_is_uppercase](ft_str_is_uppercase.c)  | `int ft_str_is_uppercase(char *str);` | ❌ |
-| [ft_strcapitalize](ft_strcapitalize.c)  | `char *ft_strcapitalize(char *str)` | ❌ |
 | [ft_strcasecmp](ft_strcasecmp.c)  | `int ft_strcasecmp(char *s1, char *s2)` | ✅  |
 | [ft_strcasestr](ft_strcasestr.c)  | | ❌ |
 | [ft_strlowcase](ft_strlowcase.c)  | `char *ft_strlowcase(char *str);` | ✅ |

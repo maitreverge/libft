@@ -6,7 +6,7 @@
 #    By: nope <nope@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 16:45:27 by nope              #+#    #+#              #
-#    Updated: 2023/09/04 19:37:51 by nope             ###   ########.fr        #
+#    Updated: 2023/09/05 11:09:28 by nope             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -69,7 +69,6 @@ SRC = ft_memset.c \
 	ft_str_is_digit.c \
 	ft_str_is_printable.c \
 	ft_str_is_uppercase.c \
-	ft_strcapitalize.c \
 	ft_strcasecmp.c \
 	ft_strcasestr.c \
 	ft_strlowcase.c \
