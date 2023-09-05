@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 08:58:08 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:12:55 by nope             ###   ########.fr       */
+/*   Updated: 2023/09/05 15:11:28 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@ int	ft_atoi(const char *str)
 	i = 0;
 	polarity = 1;
 	result = 0;
-	if (str == 0)
-		return (0);
 	while (ft_isspace(str[i]) == 1)
 		i++;
 	if (str[i] == '+' || str[i] == '-')

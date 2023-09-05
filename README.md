@@ -11,7 +11,7 @@
 
 | PART 1 (24 / 24) | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libftTester](https://github.com/Tripouille/libftTester) | [libft_tester](https://github.com/alelievr/libft-unit-test) | Test fsoares | 
 |------------------|---------------------|---------|---------|----------|--------|
-| [ft_atoi](ft_atoi.c) | `int ft_atoi(const char *str);` | ✅ | ✅ | ❌ | ✅ |
+| [ft_atoi](ft_atoi.c) | `int ft_atoi(const char *str);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_bzero](ft_bzero.c) | `void ft_bzero(void *s, size_t n);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_calloc](ft_calloc.c) | `void *ft_calloc(size_t count, size_t size);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_isalnum](ft_isalnum.c) | `int ft_isalnum(int c);` | ✅ | ✅ | ✅ | ✅ |
