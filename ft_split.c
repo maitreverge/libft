@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/10 13:03:16 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:15:06 by nope             ###   ########.fr       */
+/*   Updated: 2023/09/05 14:39:11 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,11 @@ static void	allocation(char **buffer, char const *s, char c, size_t len_s)
 {
 	size_t	i;
 	size_t	j;
-	size_t	start; 
+	size_t	start;
 
 	i = 0;
 	j = 0;
-	start = 0; 
+	start = 0;
 	if (!s)
 		return ;
 	while (s[i])

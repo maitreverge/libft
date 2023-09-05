@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/05 13:23:01 by nope              #+#    #+#             */
-/*   Updated: 2023/09/05 13:24:53 by nope             ###   ########.fr       */
+/*   Updated: 2023/09/05 14:39:52 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@ t_list	*ft_lstmap(t_list *lst, void*(*f)(void *), void(*del) (void *))
 	nlst = NULL;
 	while (lst)
 	{
-	tmp = ft_lstnew(f(lst->content));
+		tmp = ft_lstnew(f(lst->content));
 		if (!tmp)
 			return (NULL);
 		ft_lstadd_back(&nlst, tmp);
-	lst = lst->next;
+		lst = lst->next;
 	}
 	ft_lstclear(&lst, del);
 	return (nlst);

@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 20:54:33 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:16:34 by nope             ###   ########.fr       */
+/*   Updated: 2023/09/05 14:38:13 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,14 +20,12 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!s)
 		return (NULL);
 	len_s = ft_strlen(s);
+	if ((len_s <= len) || (start + len > len_s))
+		return (NULL);
 	if (start > len_s)
 		return (ft_strdup(""));
 	if (start == 0 && len >= len_s)
 		return (ft_strdup(s));
-	if (len_s <= len)
-		return (NULL);
-	if (start + len > len_s)
-		return (NULL);
 	buffer = (char *)ft_calloc(len + 1, sizeof(char));
 	if (!buffer)
 		return (NULL);
