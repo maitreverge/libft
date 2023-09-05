@@ -52,7 +52,7 @@
 | [ft_strjoin](ft_strjoin.c) | `char *ft_strjoin(char const *s1, char const *s2);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_strmapi](ft_strmapi.c) | `char *ft_strmapi(char const *s, char (*f)(unsigned int, char));` | ✅ | ✅ | ✅ | ✅ |
 | [ft_strtrim](ft_strtrim.c) | `char *ft_strtrim(char const *s1, char const *set);` | ✅ | ✅ | ✅ | ✅ |
-| [ft_substr](ft_substr.c) | `char *ft_substr(char const *s, unsigned int start, size_t len);` | ✅ | ❌ | ✅ | ❌ |
+| [ft_substr](ft_substr.c) | `char *ft_substr(char const *s, unsigned int start, size_t len);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_striteri](ft_striteri.c) | `void ft_striteri(char *s, void (*f)(unsigned int, char*));` | ✅ | ✅ | ✅ | ✅ |
 
 
