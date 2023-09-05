@@ -6,7 +6,7 @@
 /*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 16:56:54 by nope              #+#    #+#             */
-/*   Updated: 2023/09/05 14:23:03 by nope             ###   ########.fr       */
+/*   Updated: 2023/09/05 16:20:56 by nope             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,6 +97,6 @@ char	*ft_strcasestr(const char *haystack, const char *needle);
 char	*ft_strlowcase(char *str);
 char	*ft_strncpy(char *dest, char const *src, size_t n);
 char	*ft_strndup(const char *s1, size_t n);
-int		ft_strcmp(char *s1, char *s2);
+int		ft_strcmp(const char *s1, const char *s2);
 
 #endif
