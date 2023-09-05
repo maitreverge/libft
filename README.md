@@ -60,15 +60,15 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-| Bonus Functions (6 / 9)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
+| Bonus Functions (8 / 9)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libft_tester](https://github.com/alelievr/libft-unit-test) |
 |------------------|---------------------|---------|---------|
 | [ft_lstadd_back](ft_lstadd_back_bonus.c) | `void	ft_lstadd_back(t_list **lst, t_list *new);` | ✅ | ✅ |
 | [ft_lstadd_front](ft_lstadd_front_bonus.c) | `void	ft_lstadd_front(t_list **lst, t_list *new);` | ✅ | ✅ |
-| [ft_lstclear](ft_lstclear_bonus.c) | | ❌ | ❌ |
-| [ft_lstdelone](ft_lstdelone_bonus.c) | | ❌ | ❌ |
+| [ft_lstclear](ft_lstclear_bonus.c) | `void	ft_lstclear(t_list **lst, void (*del)(void *));` | ✅ | ✅ |
+| [ft_lstdelone](ft_lstdelone_bonus.c) | `void	ft_lstdelone(t_list *lst, void (*del)(void *));` | ✅ | ✅ |
 | [ft_lstiter](ft_lstiter_bonus.c) | `void	ft_lstiter(t_list *lst, void (*f)(void *));`| ✅ | ✅ |
 | [ft_lstlast](ft_lstlast_bonus.c) | `t_list	*ft_lstlast(t_list *lst);` | ✅ | ✅ |
-| [ft_lstmap](ft_lstmap_bonus.c) | | ❌ | ❌ |
+| ft_lstmap | | too_difficult for me atm |
 | [ft_lstnew](ft_lstnew_bonus.c) | | ✅ | ✅ |
 | [ft_lstsize](ft_lstsize_bonus.c) | `int	ft_lstsize(t_list *lst);` | ✅ | ✅ |
 
