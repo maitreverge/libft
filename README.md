@@ -23,7 +23,7 @@
 | [ft_memchr](ft_memchr.c) | `void *ft_memchr(const void *s, int c, size_t n);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_memcmp](ft_memcmp.c) | `int ft_memcmp(const void *s1, const void *s2, size_t n);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_memcpy](ft_memcpy.c) | `void *ft_memcpy(void *dest, const void *src, size_t n);` | ✅ | ✅ | ✅ | ✅ |
-| [ft_memmove](ft_memmove.c) | `void *ft_memmove(void *dst, const void *src, size_t len);` | ✅ | ✅ | ❌ | ✅ |
+| [ft_memmove](ft_memmove.c) | `void *ft_memmove(void *dst, const void *src, size_t len);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_memset](ft_memset.c) | `void *ft_memset(void *b, int c, size_t len);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_strchr](ft_strchr.c) | `char *ft_strchr(const char *s, int c);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_strdup](ft_strdup.c) | `char *ft_strdup(const char *s1);` | ✅ | ✅ | ✅ | ✅ |
@@ -32,7 +32,7 @@
 | [ft_strlen](ft_strlen.c) | `size_t ft_strlen(const char *s);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_strncmp](ft_strncmp.c) | `int ft_strncmp(const char *s1, const char *s2, size_t n);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_strnstr](ft_strnstr.c) | `char *ft_strnstr(const char *haystack, const char *needle, size_t len);` | ✅ | ✅ | ✅ | ✅ |
-| [ft_strrchr](ft_strrchr.c) | `char *ft_strrchr(const char *s, int c);` | ✅ | ✅ | ❌ | ✅ |
+| [ft_strrchr](ft_strrchr.c) | `char *ft_strrchr(const char *s, int c);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_tolower](ft_tolower.c) | `int ft_tolower(int c);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_toupper](ft_toupper.c) | `int ft_toupper(int c);` | ✅ | ✅ | ✅ | ✅ |
 
@@ -43,7 +43,7 @@
 
 | PART 2 (11 / 11)    | Prototype        | [war_machine](https://github.com/0x050f/libft-war-machine) | [libftTester](https://github.com/Tripouille/libftTester) | [libft_tester](https://github.com/alelievr/libft-unit-test) | Test fsoares | 
 |------------------|---------------------|---------|---------|----------|--------|
-| [ft_itoa](ft_itoa.c) | `char *ft_itoa(int n);` | ✅ | ✅ | 🟠 | ✅ |
+| [ft_itoa](ft_itoa.c) | `char *ft_itoa(int n);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_putchar_fd](ft_putchar_fd.c) | `void ft_putchar_fd(char c, int fd);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_putendl_fd](ft_putendl_fd.c) | `void ft_putendl_fd(char *s, int fd);` | ✅ | ✅ | ✅ | ✅ |
 | [ft_putnbr_fd](ft_putnbr_fd.c) | `void ft_putnbr_fd(int n, int fd);` | ✅ | ✅ | ✅ | ✅ |
@@ -82,8 +82,8 @@ From now, some of my custom functions might need further testing
 | My Functions (25 / 25)    | Prototype        | My tests   |
 |------------------|---------------------|---------|
 | [ft_abs](ft_abs.c)  | `int ft_abs(int c);` | ✅ |
-| [ft_countwords](ft_countwords.c)  | `size_t ft_countwords(char const *str, char c);` | ❌ |
-| [ft_intlen](ft_intlen.c)  | `int ft_intlen(int n);` | ❌ |
+| [ft_countwords](ft_countwords.c)  | `size_t ft_countwords(char const *str, char c);` | ✅ |
+| [ft_intlen](ft_intlen.c)  | `int ft_intlen(int n);` | ✅ |
 | [ft_isblank](ft_isblank.c)  | `int isblank(int c);` | ✅ |
 | [ft_iscntrl](ft_iscntrl.c)  | `int ft_iscntrl(int c);` | ✅ |
 | [ft_isgraph](ft_isgraph.c)  | `int ft_isgraph(int c);` | ✅ |
@@ -93,15 +93,15 @@ From now, some of my custom functions might need further testing
 | [ft_isxdigit](ft_isxdigit.c)  | `int ft_isxdigit(int c);` | ✅ |
 | [ft_newstr](ft_newstr.c)  | `char *ft_newstr(size_t size);` | ✅ |
 | [ft_putchar](ft_putchar.c)  | `void ft_putchar(char c);` | ✅ |
-| [ft_power](ft_power.c)  | `long ft_power(int nb, int power);` | ❌ |
+| [ft_power](ft_power.c)  | `long ft_power(int nb, int power);` | ✅ |
 | [ft_str_is_alpha](ft_str_is_alpha.c)  | `int ft_str_is_alpha(char *str);` | ✅ |
 | [ft_str_is_lowercase](ft_str_is_lowercase.c)  | `int ft_str_is_lowercase(char *str);` | ✅ |
-| [ft_str_is_digit](ft_str_is_digit.c)  | `int ft_str_is_digit(char *str);` | ❌ |
+| [ft_str_is_digit](ft_str_is_digit.c)  | `int ft_str_is_digit(char *str);` | ✅ |
 | [ft_str_is_printable](ft_str_is_printable.c)  | `int ft_str_is_printable(char *str);` | ✅ |
 | [ft_str_is_unique_chars](ft_str_is_unique_chars.c)  | `int ft_str_is_unique_chars(char *str);` | ✅ |
-| [ft_str_is_uppercase](ft_str_is_uppercase.c)  | `int ft_str_is_uppercase(char *str);` | ❌ |
+| [ft_str_is_uppercase](ft_str_is_uppercase.c)  | `int ft_str_is_uppercase(char *str);` | ✅ |
 | [ft_strcasecmp](ft_strcasecmp.c)  | `int ft_strcasecmp(char *s1, char *s2);` | ✅  |
-| [ft_strcasestr](ft_strcasestr.c)  | `char	*ft_strcasestr(const char *haystack, const char *needle);` | ❌ |
+| [ft_strcasestr](ft_strcasestr.c)  | `char	*ft_strcasestr(const char *haystack, const char *needle);` | ✅ |
 | [ft_strlowcase](ft_strlowcase.c)  | `char *ft_strlowcase(char *str);` | ✅ |
 | [ft_strncpy](ft_strncpy.c)  | `char *ft_strncpy(char *dest, char const *src, size_t n);` | ✅ |
 | [ft_strndup](ft_strndup.c)  | `char *ft_strndup(const char *s1, size_t n);` | ✅ |
