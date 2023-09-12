@@ -4,7 +4,11 @@
   <img src="https://github.com/mcombeau/mcombeau/blob/main/42_badges/libfte.png" />
 </p>
 
-[Consider paying a visit to mcombeau for thoses awesomes 42 projects logos :) ](https://github.com/mcombeau)
+<div style="text-align: center;">
+  <small>
+    <a href="https://github.com/mcombeau">Consider paying a visit to @mcombeau for those gorgeous 42 project logos 🤌</a>
+  </small>
+</div>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
