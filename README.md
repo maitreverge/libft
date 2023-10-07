@@ -1,5 +1,14 @@
 <h1 align="center">libft</h1>
 
+| 1st Try |
+| :---: |
+| <img src="img_src/122.jpeg" /> |
+
+
+|  | Moulinette Grade |
+| :---: | :---: |
+| 1st Try | <img src="img_src/moulinette.jpeg" /> | 
+
 <p align="center">
   <img src="https://github.com/mcombeau/mcombeau/blob/main/42_badges/libfte.png" />
 </p>
@@ -75,39 +84,3 @@
 | ft_lstmap | | too_difficult for me atm |
 | [ft_lstnew](ft_lstnew_bonus.c) | | ✅ | ✅ | ✅ | ✅ |
 | [ft_lstsize](ft_lstsize_bonus.c) | `int	ft_lstsize(t_list *lst);` | ✅ | ✅ | ✅ | ✅ |
-
-
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-From now, some of my custom functions might need further testing
-
-
-| My Functions (25 / 25)    | Prototype        | My tests   |
-|------------------|---------------------|---------|
-| [ft_abs](ft_abs.c)  | `int ft_abs(int c);` | ✅ |
-| [ft_countwords](ft_countwords.c)  | `size_t ft_countwords(char const *str, char c);` | ✅ |
-| [ft_intlen](ft_intlen.c)  | `int ft_intlen(int n);` | ✅ |
-| [ft_isblank](ft_isblank.c)  | `int isblank(int c);` | ✅ |
-| [ft_iscntrl](ft_iscntrl.c)  | `int ft_iscntrl(int c);` | ✅ |
-| [ft_isgraph](ft_isgraph.c)  | `int ft_isgraph(int c);` | ✅ |
-| [ft_islower](ft_islower.c)  | `int ft_islower(int c);` | ✅ |
-| [ft_isspace](ft_isspace.c)  | `int ft_isspace(int c);` | ✅ |
-| [ft_isupper](ft_isupper.c)  | `int ft_isupper(int c);` | ✅ |
-| [ft_isxdigit](ft_isxdigit.c)  | `int ft_isxdigit(int c);` | ✅ |
-| [ft_newstr](ft_newstr.c)  | `char *ft_newstr(size_t size);` | ✅ |
-| [ft_putchar](ft_putchar.c)  | `void ft_putchar(char c);` | ✅ |
-| [ft_power](ft_power.c)  | `long ft_power(int nb, int power);` | ✅ |
-| [ft_str_is_alpha](ft_str_is_alpha.c)  | `int ft_str_is_alpha(char *str);` | ✅ |
-| [ft_str_is_lowercase](ft_str_is_lowercase.c)  | `int ft_str_is_lowercase(char *str);` | ✅ |
-| [ft_str_is_digit](ft_str_is_digit.c)  | `int ft_str_is_digit(char *str);` | ✅ |
-| [ft_str_is_printable](ft_str_is_printable.c)  | `int ft_str_is_printable(char *str);` | ✅ |
-| [ft_str_is_unique_chars](ft_str_is_unique_chars.c)  | `int ft_str_is_unique_chars(char *str);` | ✅ |
-| [ft_str_is_uppercase](ft_str_is_uppercase.c)  | `int ft_str_is_uppercase(char *str);` | ✅ |
-| [ft_strcasecmp](ft_strcasecmp.c)  | `int ft_strcasecmp(char *s1, char *s2);` | ✅  |
-| [ft_strcasestr](ft_strcasestr.c)  | `char	*ft_strcasestr(const char *haystack, const char *needle);` | ✅ |
-| [ft_strlowcase](ft_strlowcase.c)  | `char *ft_strlowcase(char *str);` | ✅ |
-| [ft_strncpy](ft_strncpy.c)  | `char *ft_strncpy(char *dest, char const *src, size_t n);` | ✅ |
-| [ft_strndup](ft_strndup.c)  | `char *ft_strndup(const char *s1, size_t n);` | ✅ |
-| [ft_strcmp](ft_strcmp.c)  | `int ft_strcmp(char *s1, char *s2);` | ✅ |
-
