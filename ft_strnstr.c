@@ -3,35 +3,35 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/04 11:44:14 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:16:19 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 15:26:05 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 14:29:56 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	unsigned long	i;
 	unsigned long	j;
 
 	i = 0;
-	if ((len == 0 && !haystack) || (len == 0 && !needle))
+	if ((len == 0 && !big) || (len == 0 && !little))
 		return (NULL);
-	if (needle[0] == '\0')
-		return ((char *)haystack);
+	if (little[0] == '\0')
+		return ((char *)big);
 	else
 	{
-		while (haystack[i] != '\0' && i < len)
+		while (big[i] != '\0' && i < len)
 		{
 			j = 0;
-			while (haystack[i + j] == needle[j] && needle[j] != '\0'
+			while (big[i + j] == little[j] && little[j] != '\0'
 				&& (i + j) < len)
 			{
-				if (needle[j + 1] == '\0')
-					return ((char *)&haystack[i]);
+				if (little[j + 1] == '\0')
+					return ((char *)&big[i]);
 				j++;
 			}
 			i++;
@@ -39,3 +39,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 		return (NULL);
 	}
 }
+/*
+strnstr a pour but de rechercher little dans big
+et se met a le rechercher dans un maximum de len
+*/

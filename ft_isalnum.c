@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/01 17:01:59 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:13:11 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 14:22:35 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 09:49:50 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,6 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
+/*
+isalnum est la fusion de isalpha et isdigit
+*/

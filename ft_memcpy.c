@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/02 20:08:54 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:14:32 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 15:20:19 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 10:11:22 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,13 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+
+/*
+memcpy est une fonction de copie d'un buffer src vers un void dst
+
+Pour plus de simplicite, j'ai decide de prendre le parti de caster
+ces deux buffers en char*, ce qui reviens a copier byte par byte
+
+Le parti pris du prototypage de la fonction en void* nous oblige egalement
+a avoir un entier positif "n", qui deviens un element de la seule boucle while
+*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/01 20:23:28 by nope              #+#    #+#             */
-/*   Updated: 2023/09/11 23:02:35 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 15:21:31 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 10:42:10 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,4 +28,8 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd((n / 10), fd);
 	ft_putchar_fd(((n % 10) + 48), fd);
 }
-
+/*
+putnbr_fd suit la meme logique d'un putnbr classique
+a la difference que le nombre s'imprimme dans un fd
+au lieu de la sortie standart
+*/

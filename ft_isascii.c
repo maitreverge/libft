@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/01 17:11:25 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:13:18 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 14:22:47 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 09:51:01 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,7 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
+/*
+Check si le char donne en parametre est bien un caractere ascii
+
+*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/03 17:01:12 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:15:51 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 15:23:29 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 12:46:41 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,16 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[j] = '\0';
 	return (len_dest + len_src);
 }
+/*
+strlcat est une fonction qui fait 2 actions en une :
+elle copie le contennu de src a la fin de dst
+en copiant manuellement un '\0' a la fin de dest
+(d'ou dstsize - len_dest -1 dans la boucle while)
+
+J'ai utilise deux indexs de strlen(dst) pour :
+1 => Constamment garder la taille de dst (qui sert d'argument pour while)
+2 => En tant qu'index qui sert lors de la copie
+
+La fonction retourne le nombre de char qu'elle
+a pu copier
+*/

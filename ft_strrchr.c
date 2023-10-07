@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/03 15:37:49 by nope              #+#    #+#             */
-/*   Updated: 2023/09/05 16:06:57 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 15:26:13 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 14:32:10 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,16 @@ char	*ft_strrchr(const char *s, int c)
 	else
 		return (NULL);
 }
+/*
+strrchr cherche la premiere occurence de c dans s
+
+Vu que c est declare en tant que int
+et que s est un const char*
+
+Je suis passe par deux variables supplementaires
+p_s ==> un pointeur sur le *s
+uc_c (unsigned char) de c
+
+Je ne sais pas si c'est mieux de gerer les edges cases
+a la fin ou au debut de la fonction... ?!
+*/

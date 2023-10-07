@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/03 15:23:40 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:15:38 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 15:22:50 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 12:27:38 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,14 @@
 char	*ft_strchr(const char *s, int c)
 {
 	char			*p_s;
-	unsigned long	i;
 	unsigned char	uc_c;
 
 	p_s = ((char *)s);
 	uc_c = ((unsigned char)c);
-	i = 0;
 	while (*p_s != '\0')
 	{
 		if (*p_s == uc_c)
 			return (p_s);
-		i++;
 		p_s++;
 	}
 	if (uc_c == '\0')
@@ -33,3 +30,13 @@ char	*ft_strchr(const char *s, int c)
 	else
 		return (NULL);
 }
+/*
+strchr va rechercher dans un buffer s la presence du char c
+(qui est en realite un int pour des soucis de
+compatibilite)
+
+J'ai utilise deux variables pour :
+! 1 : Convertir le int en char
+! 2 : creer un pointer sur s pour "contourner"
+! le mot clef "const" qui nous empeche de modifier le buffer
+*/

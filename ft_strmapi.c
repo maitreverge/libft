@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/15 22:28:07 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:16:02 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 15:24:09 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 15:45:33 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,12 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	return (buffer);
 }
+/*
+A la meme maniere que striteri
+strmapi fonctionne de la meme facon, a la seule difference
+que strmapi cree un nouveau buffer sur lequel la foncion char (*f)
+va s'appliquer
+
+(contrairement a striteri ou les changement de la fonction void
+s'appliquent au buffer original)
+*/

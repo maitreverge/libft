@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/10 16:53:14 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:13:02 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 14:22:14 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 09:49:09 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,10 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(buffer, size * count);
 	return (buffer);
 }
+/*
+Calloc est un malloc "custom"
+Il va en effet malloc count * size,
+mais egalement remplir le buffer en question avec des 0
+grace a bzero
+
+*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/01 19:10:04 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:15:02 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 15:21:37 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 10:44:43 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,7 @@ void	ft_putstr_fd(char *s, int fd)
 		return ;
 	write(fd, s, ft_strlen(s));
 }
+/*
+putstr_fd suit la meme logique qu'un putstr classique
+Mais imprimme dans le fd passe en param
+*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/01 20:03:29 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:14:38 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 15:20:34 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 10:18:37 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,7 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
+/*
+memset se contente de remplir un void buffer avec un int
+(qui est en realite un)
+*/

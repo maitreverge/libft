@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/30 16:40:51 by nope              #+#    #+#             */
-/*   Updated: 2023/09/04 13:15:57 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 15:23:43 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 12:50:04 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,6 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
+/*
+Calcule la longeur du buffer *s
+*/

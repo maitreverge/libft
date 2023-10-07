@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/15 20:54:33 by nope              #+#    #+#             */
-/*   Updated: 2023/09/05 15:00:32 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 15:26:41 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 15:39:16 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,10 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	buffer[len] = '\0';
 	return (buffer);
 }
+/*
+substr retourne dynamiquement une sous chaine de caractere
+a partir de start, et de len max
+
+J'ai prefere utiliser ft_memcpy et append
+un '\0' a la fin manuellement
+*/

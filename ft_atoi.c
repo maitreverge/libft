@@ -3,14 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nope <nope@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/05 08:58:08 by nope              #+#    #+#             */
-/*   Updated: 2023/09/05 15:11:28 by nope             ###   ########.fr       */
+/*   Created: 2023/10/02 14:21:52 by flverge           #+#    #+#             */
+/*   Updated: 2023/10/06 09:45:29 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+static int	ft_isspace(int c)
+{
+	if ((c >= 9 && c <= 13) || c == 32)
+		return (1);
+	return (0);
+}
 
 int	ft_atoi(const char *str)
 {
@@ -36,3 +43,10 @@ int	ft_atoi(const char *str)
 	}
 	return (polarity * result);
 }
+/* 
+Ft_atoi prends une chaine de caracteres en paramettre
+et renvoie un nombre int en checkant
+la polarite
+la presence d'espaces avec ft_isspace
+
+*/
