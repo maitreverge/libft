@@ -2,7 +2,19 @@
   <img src="img/libft.jpeg" width="50%"/>
 </p>
 
+## 🚀 SYNOPSIS
+
+The `libft` project is the very first project at 42 school.
+
+It is a foundational coding endeavor where students are tasked with recreating a library of standard C functions from scratch.
+
+This project serves as a crucial introduction to programming concepts and the C language, requiring students to implement fundamental functions such as string manipulation, memory allocation, and basic I/O operations.
+
+Successfully completing the libft project not only demonstrates mastery of these fundamental functions, but also lays the groundwork for subsequent challenges in the 42 curriculum.
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 🗃️ FUNCTIONS LIST
 
 
 | PART 1 (24 / 24) | Prototype        |
@@ -33,10 +45,6 @@
 | [ft_toupper](ft_toupper.c) | `int ft_toupper(int c);` |
 
 
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-
 | PART 2 (11 / 11)    | Prototype        | 
 |------------------|---------------------|
 | [ft_itoa](ft_itoa.c) | `char *ft_itoa(int n);` |
@@ -52,10 +60,6 @@
 | [ft_striteri](ft_striteri.c) | `void ft_striteri(char *s, void (*f)(unsigned int, char*));` |
 
 
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-
 | Bonus Functions (8 / 9)    | Prototype        |
 |------------------|---------------------|
 | [ft_lstadd_back](ft_lstadd_back_bonus.c) | `void	ft_lstadd_back(t_list **lst, t_list *new);` |
@@ -67,3 +71,69 @@
 | ft_lstmap | To be added soon |
 | [ft_lstnew](ft_lstnew_bonus.c) | `t_list	*ft_lstnew(void *content)` | 
 | [ft_lstsize](ft_lstsize_bonus.c) | `int	ft_lstsize(t_list *lst);` |
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## ⚙️ USAGE
+
+### Step 1 :
+
+Run in your shell environment :
+
+```bash
+git clone https://github.com/maitreverge/libft.git libft
+```
+
+### Step 2 :
+
+Enter into the cloned repo :
+```bash
+cd libft
+```
+
+and run :
+
+```bash
+make all bonus
+```
+
+You'll end up with a file called `libft.a`, which is a static library.
+
+### Step 3 :
+
+Now you can import this `libft.a` and the `libft.h` files at the root of your own project, and use the functions linked to it.
+
+Do do so, let's write an simple program called `test.c` :
+
+```c
+// Includes header from the libft
+#include "libft.h"
+
+int main(void)
+{
+    // ft_putstr_fd takes a string and a file descriptor as an input
+    ft_putstr_fd("Hello World !\n", 1);
+
+    return (0);
+}
+```
+
+### Step 4 :
+
+Once the three files `libft.a` `libft.h` and `test.c` are here, run :
+
+```bash
+gcc libft.a test.c -o program && ./program
+```
+This command will compile your `test.c` and link it to the static library `libft.a`.
+
+
+We end up with a file called `program`, once executed gives :
+```bash
+Hello, World !
+```
+
+
+## 🤝 CONTRIBUTION
+
+Despite being straightforward, you can still contribute my making pull request, as we can always do something better !
