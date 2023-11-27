@@ -1,7 +1,5 @@
-<h1 align="center">libft</h1>
-
 <p align="center">
-  <img src="https://github.com/maitreverge/libft/img/libft.jpeg" />
+  <img src="img/libft.jpeg" width="50%"/>
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -66,6 +64,6 @@
 | [ft_lstdelone](ft_lstdelone_bonus.c) | `void	ft_lstdelone(t_list *lst, void (*del)(void *));` |
 | [ft_lstiter](ft_lstiter_bonus.c) | `void	ft_lstiter(t_list *lst, void (*f)(void *));`|
 | [ft_lstlast](ft_lstlast_bonus.c) | `t_list	*ft_lstlast(t_list *lst);` |
-| ft_lstmap | | too_difficult for me atm |
+| ft_lstmap | To be added soon |
 | [ft_lstnew](ft_lstnew_bonus.c) | `t_list	*ft_lstnew(void *content)` | 
 | [ft_lstsize](ft_lstsize_bonus.c) | `int	ft_lstsize(t_list *lst);` |
