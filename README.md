@@ -1,26 +1,8 @@
 <h1 align="center">libft</h1>
 
 <p align="center">
-  <img src="https://github.com/mcombeau/mcombeau/blob/main/42_badges/libfte.png" />
+  <img src="https://github.com/maitreverge/libft/img/libft.jpeg" />
 </p>
-
-<div style="text-align: center;">
-  <small>
-    <a href="https://github.com/mcombeau">Consider paying a visit to @mcombeau for those gorgeous 42 project logos 🤌</a>
-  </small>
-</div>
-
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-| 1st Try |
-| :---: |
-| <img src="img_src/122.jpeg" /> |
-
-
-|  | Moulinette Grade |
-| :---: | :---: |
-| 1st Try | <img src="img_src/moulinette.jpeg" /> | 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
