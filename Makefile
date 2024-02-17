@@ -6,12 +6,12 @@
 #    By: flverge <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/02 15:29:49 by flverge           #+#    #+#              #
-#    Updated: 2023/10/03 09:52:03 by flverge          ###   ########.fr        #
+#    Updated: 2024/02/17 20:33:59 by flverge          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
-CC = gcc
+CC = cc
 CFLAGS = -Wall -Wextra -Werror -std=c99 -I.
 
 SRC = ft_isalpha.c \
@@ -57,6 +57,7 @@ SRC_BONUS = ft_lstnew_bonus.c \
 	ft_lstdelone_bonus.c \
 	ft_lstclear_bonus.c \
 	ft_lstiter_bonus.c \
+	ft_lstmap_bonus.c \
 
 OBJ = ${SRC:.c=.o}
 OBJ_BONUS = ${SRC_BONUS:.c=.o}
