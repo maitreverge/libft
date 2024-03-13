@@ -68,7 +68,7 @@ Successfully completing the libft project not only demonstrates mastery of these
 | [ft_lstdelone](ft_lstdelone_bonus.c) | `void	ft_lstdelone(t_list *lst, void (*del)(void *));` |
 | [ft_lstiter](ft_lstiter_bonus.c) | `void	ft_lstiter(t_list *lst, void (*f)(void *));`|
 | [ft_lstlast](ft_lstlast_bonus.c) | `t_list	*ft_lstlast(t_list *lst);` |
-| ft_lstmap | To be added soon |
+| [ft_lstmap](ft_lstmap_bonus.c) | `t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));` |
 | [ft_lstnew](ft_lstnew_bonus.c) | `t_list	*ft_lstnew(void *content)` | 
 | [ft_lstsize](ft_lstsize_bonus.c) | `int	ft_lstsize(t_list *lst);` |
 
