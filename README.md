@@ -136,4 +136,4 @@ Hello, World !
 
 ## 🤝 CONTRIBUTION
 
-Despite being straightforward, you can still contribute my making pull request, as we can always do something better !
+Contributions are open, make a pull request or open an issue 🚀
