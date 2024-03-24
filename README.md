@@ -60,7 +60,7 @@ Successfully completing the libft project not only demonstrates mastery of these
 | [ft_striteri](ft_striteri.c) | `void ft_striteri(char *s, void (*f)(unsigned int, char*));` |
 
 
-| Bonus Functions (8 / 9)    | Prototype        |
+| Bonus Functions (9 / 9)    | Prototype        |
 |------------------|---------------------|
 | [ft_lstadd_back](ft_lstadd_back_bonus.c) | `void	ft_lstadd_back(t_list **lst, t_list *new);` |
 | [ft_lstadd_front](ft_lstadd_front_bonus.c) | `void	ft_lstadd_front(t_list **lst, t_list *new);` |
