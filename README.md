@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/libft.png" width="70%"/>
+  <img src="img/libft.png" width="70%"/> 
 </p>
 
 ## 🚀 SYNOPSIS
