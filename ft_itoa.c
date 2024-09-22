@@ -3,15 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:18:39 by flverge           #+#    #+#             */
-/*   Updated: 2023/10/06 09:59:00 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:04:41 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Calculates the length of the string needed to represent a given number.
+ *
+ * This function determines the number of characters required to represent
+ * the integer `n` as a string, including the sign if the number is negative.
+ *
+ * @param n The number for which to calculate the string length.
+ * @return The total length of the string representation of the number.
+ */
 static int	alloc_lenght(long n)
 {
 	int	total_lenght;
@@ -30,16 +39,17 @@ static int	alloc_lenght(long n)
 	}
 	return (total_lenght);
 }
-/*
-alloc_lenght check la longueur du chiffre
-10 => 1
-999 => 2
-ect...
-et rajoute +1 si le nombre est negatif pour
-laisser un emplacement de malloc supplementaire
-pour le '-'
-*/
 
+/**
+ * @brief Checks if a number is negative and updates the buffer accordingly.
+ *
+ * This function checks if the given number is negative. If it is, the number
+ * is converted to its positive counterpart and the first character of the 
+ * buffer is set to the minus sign ('-').
+ *
+ * @param nbr Pointer to the number to be checked and potentially modified.
+ * @param buffer Pointer to the buffer where the minus sign will be set if the number is negative.
+ */
 static void	check_neg(long *nbr, char *buffer)
 {
 	if (*nbr < 0)
@@ -48,11 +58,18 @@ static void	check_neg(long *nbr, char *buffer)
 		buffer[0] = '-';
 	}
 }
-/*
-check_neg a pour seul role d'allouer le char '-'
-au tout debut du buffer si le nombre est negatif
-*/
 
+/**
+ * @file ft_itoa.c
+ * @brief Converts an integer to a null-terminated string.
+ *
+ * This function takes an integer `n` and converts it to a string representation.
+ * The resulting string is dynamically allocated and must be freed by the caller.
+ *
+ * @param n The integer to be converted to a string.
+ * @return A pointer to the newly allocated string representing the integer.
+ *         Returns NULL if memory allocation fails.
+ */
 char	*ft_itoa(int n)
 {
 	char	*buffer;
@@ -78,14 +95,3 @@ char	*ft_itoa(int n)
 	buffer[lenght] = '\0';
 	return (buffer);
 }
-/*
-ft_itoa transforme un int en char*
-pour plus de simplicite de conversion, l'attribution
-d'un long corrige le probleme de limitation INT_MIN * -1
-qui depasse donc la limite INT_MAX.
-L'allocation correcte une fois effectuee avec la sous-fonction alloc_lenght
-
-! 1 => On attribue un '-' au debut du buffer si n < 0
-! 2 => On check si n == 0 pour ecarter ce cas special
-! 3 => puis on remplit le buffer en marche arriere avec un modulo 10 
-*/

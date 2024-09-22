@@ -3,15 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:23:43 by flverge           #+#    #+#             */
-/*   Updated: 2023/10/06 12:50:04 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:13:27 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Computes the length of the string s.
+ *
+ * This function counts the number of characters in the string pointed to by s,
+ * excluding the terminating null byte ('\0').
+ *
+ * @param s Pointer to the null-terminated string to be measured.
+ * @return The number of characters in the string s.
+ */
 size_t	ft_strlen(const char *s)
 {
 	size_t	i;
@@ -21,6 +30,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-/*
-Calcule la longeur du buffer *s
-*/

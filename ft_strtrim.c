@@ -3,15 +3,28 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:26:32 by flverge           #+#    #+#             */
-/*   Updated: 2023/10/06 16:04:48 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:14:49 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Copies up to n characters from the string src to dest.
+ *
+ * This function copies at most n characters from the string pointed to by src 
+ * to the buffer pointed to by dest. If the length of src is less than n, the 
+ * remainder of dest will be padded with null bytes ('\0'). If the length of 
+ * src is greater than or equal to n, the string will not be null-terminated.
+ *
+ * @param dest Pointer to the destination buffer where the content is to be copied.
+ * @param src Pointer to the source string to be copied.
+ * @param n Maximum number of characters to be copied from src.
+ * @return A pointer to the destination string dest.
+ */
 static char	*ft_strncpy(char *dest, char const *src, size_t n)
 {
 	size_t	i;
@@ -30,6 +43,15 @@ static char	*ft_strncpy(char *dest, char const *src, size_t n)
 	return (dest);
 }
 
+/**
+ * @brief Trims the characters from the beginning and end of a string.
+ *
+ * This function removes all characters in the set from the beginning and end of the given string.
+ *
+ * @param s1 The string to be trimmed.
+ * @param set The set of characters to be trimmed from the string.
+ * @return A newly allocated string with the trimmed content, or NULL if allocation fails or if s1 or set is NULL.
+ */
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	char const	*start;
@@ -52,20 +74,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strncpy(buffer, start, trimmed_len);
 	return (buffer);
 }
-/*
-strtrim "rogne" de s1 la chaine set,
-avant et apres
-
-! Etape 1 : regarder si l'une ou l'autre existe vraiment
-
-! Etape 2 : Parcourir une premiere fois la chaine
-en marche avant, et s'arreter des que strchr ne 
-rencontre plus la chaine set dans s1
-
-!Etape 3 : Parcourir la chaine mais cette fois en marche arriere
-pour faire la meme chose 
-
-! Etape 4 : allouer avec calloc la taille finale (end - start + 1)
-
-! Etape 5 : copier avec strncpy, qui garantie une copie avec un '\0'
-*/

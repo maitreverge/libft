@@ -3,15 +3,25 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:26:41 by flverge           #+#    #+#             */
-/*   Updated: 2023/10/06 15:39:16 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:15:13 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Allocates and returns a substring from the string 's'.
+ *
+ * The substring begins at index 'start' and is of maximum size 'len'.
+ *
+ * @param s The string from which to create the substring.
+ * @param start The start index of the substring in the string 's'.
+ * @param len The maximum length of the substring.
+ * @return The substring. NULL if the allocation fails or if 's' is NULL.
+ */
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*buffer;
@@ -31,10 +41,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	buffer[len] = '\0';
 	return (buffer);
 }
-/*
-substr retourne dynamiquement une sous chaine de caractere
-a partir de start, et de len max
-
-J'ai prefere utiliser ft_memcpy et append
-un '\0' a la fin manuellement
-*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 14:21:52 by flverge           #+#    #+#             */
-/*   Updated: 2023/10/06 09:45:29 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 16:59:30 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,21 @@ static int	ft_isspace(int c)
 	return (0);
 }
 
+/**
+/**
+ * @brief Converts the initial portion of the string pointed to by str to int.
+ *
+ * This function parses the C-string str interpreting its content as an 
+ * integral number, which is returned as an int value. The function 
+ * discards any whitespace characters until the first non-whitespace 
+ * character is found. Then, starting from this character, takes an 
+ * optional initial plus or minus sign followed by as many numerical 
+ * digits as possible, and interprets them as a numerical value.
+ *
+ * @param str The string to be converted to int.
+ * @return The converted integral number as an int. If no valid conversion 
+ *         could be performed, it returns zero.
+ */
 int	ft_atoi(const char *str)
 {
 	int	i;
@@ -43,10 +58,3 @@ int	ft_atoi(const char *str)
 	}
 	return (polarity * result);
 }
-/* 
-Ft_atoi prends une chaine de caracteres en paramettre
-et renvoie un nombre int en checkant
-la polarite
-la presence d'espaces avec ft_isspace
-
-*/

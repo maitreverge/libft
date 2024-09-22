@@ -3,15 +3,28 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:26:13 by flverge           #+#    #+#             */
-/*   Updated: 2023/10/06 14:32:10 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:14:19 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @file ft_strrchr.c
+ * @brief Locate the last occurrence of a character in a string.
+ *
+ * This function searches for the last occurrence of the character `c` 
+ * (converted to an unsigned char) in the string pointed to by `s`.
+ *
+ * @param s The string to be searched.
+ * @param c The character to be located.
+ * @return A pointer to the last occurrence of the character `c` in the string `s`,
+ *         or NULL if the character is not found. If `c` is '\0', the function 
+ *         returns a pointer to the null terminator.
+ */
 char	*ft_strrchr(const char *s, int c)
 {
 	unsigned char	uc_c;
@@ -34,16 +47,3 @@ char	*ft_strrchr(const char *s, int c)
 	else
 		return (NULL);
 }
-/*
-strrchr cherche la premiere occurence de c dans s
-
-Vu que c est declare en tant que int
-et que s est un const char*
-
-Je suis passe par deux variables supplementaires
-p_s ==> un pointeur sur le *s
-uc_c (unsigned char) de c
-
-Je ne sais pas si c'est mieux de gerer les edges cases
-a la fin ou au debut de la fonction... ?!
-*/

@@ -3,15 +3,27 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flverge <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:23:29 by flverge           #+#    #+#             */
-/*   Updated: 2023/10/06 12:46:41 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:13:04 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Concatenates the string src to the end of dst, ensuring the result is null-terminated.
+ *
+ * This function appends the null-terminated string src to the end of dst. It will append at most
+ * dstsize - strlen(dst) - 1 characters. It will then null-terminate the result.
+ *
+ * @param dst The destination string to which src will be appended.
+ * @param src The source string to be appended to dst.
+ * @param dstsize The full size of the destination buffer.
+ * @return The total length of the string it tried to create, which is the initial length of dst plus the length of src.
+ *         If the return value is >= dstsize, the output string has been truncated.
+ */
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;
@@ -34,16 +46,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[j] = '\0';
 	return (len_dest + len_src);
 }
-/*
-strlcat est une fonction qui fait 2 actions en une :
-elle copie le contennu de src a la fin de dst
-en copiant manuellement un '\0' a la fin de dest
-(d'ou dstsize - len_dest -1 dans la boucle while)
-
-J'ai utilise deux indexs de strlen(dst) pour :
-1 => Constamment garder la taille de dst (qui sert d'argument pour while)
-2 => En tant qu'index qui sert lors de la copie
-
-La fonction retourne le nombre de char qu'elle
-a pu copier
-*/
