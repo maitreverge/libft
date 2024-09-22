@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:19:39 by flverge           #+#    #+#             */
-/*   Updated: 2024/09/22 17:06:29 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:22:20 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,8 @@
  * with the provided value, and sets the next pointer to NULL.
  *
  * @param content The content to initialize the new list element with.
- * @return A pointer to the newly created list element, or NULL if memory allocation fails.
+ * @return A pointer to the newly created list element,
+ * or NULL if memory allocation fails.
  */
 t_list	*ft_lstnew(void *content)
 {

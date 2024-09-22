@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:21:44 by flverge           #+#    #+#             */
-/*   Updated: 2024/09/22 17:11:37 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:24:24 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,14 +67,16 @@ static void	sub_check(char const *s, char c, size_t *i, size_t *start)
 	}
 }
 
-
 /**
  * @brief Allocates and fills a buffer with substrings from the input string.
  *
- * This function splits the input string `s` into substrings based on the delimiter `c`
- * and stores them in the `buffer`. The number of substrings is limited by `len_s`.
+ * This function splits the input string `s`
+ * into substrings based on the delimiter `c`
+ * and stores them in the `buffer`.
+ * The number of substrings is limited by `len_s`.
  *
- * @param buffer A pointer to an array of strings where the substrings will be stored.
+ * @param buffer A pointer to an array of strings
+ * where the substrings will be stored.
  * @param s The input string to be split.
  * @param c The delimiter character used to split the input string.
  * @param len_s The maximum number of substrings to store in the buffer.
@@ -106,13 +108,12 @@ static void	allocation(char **buffer, char const *s, char c, size_t len_s)
 	}
 }
 
-
-
 /**
  * @brief Counts the number of words in a string separated by a given delimiter.
  *
  * This function takes a string and a delimiter character as input and returns
- * the number of words in the string. Words are defined as sequences of characters
+ * the number of words in the string.
+ * Words are defined as sequences of characters
  * separated by the delimiter.
  *
  * @param str The input string to be scanned.
@@ -152,7 +153,8 @@ static size_t	ft_countwords(char const *str, char c)
  *
  * @param s The input string to be split.
  * @param c The delimiter character used to split the string.
- * @return A pointer to an array of substrings, or NULL if memory allocation fails.
+ * @return A pointer to an array of substrings,
+ * or NULL if memory allocation fails.
  */
 char	**ft_split(char const *s, char c)
 {

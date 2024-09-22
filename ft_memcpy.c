@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:20:19 by flverge           #+#    #+#             */
-/*   Updated: 2024/09/22 17:07:39 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:22:58 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,8 @@
  * @param dst Pointer to the destination memory area.
  * @param src Pointer to the source memory area.
  * @param n Number of bytes to copy.
- * @return Pointer to the destination memory area (dst), or NULL if dst and src are both NULL.
+ * @return Pointer to the destination memory area (dst),
+ * or NULL if dst and src are both NULL.
  */
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {

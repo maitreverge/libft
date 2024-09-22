@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:20:34 by flverge           #+#    #+#             */
-/*   Updated: 2024/09/22 17:08:10 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:23:09 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,8 @@
  * to the specified value `c`.
  *
  * @param b Pointer to the memory area to be filled.
- * @param c Value to be set. It is passed as an int, but it is converted to an unsigned char.
+ * @param c Value to be set. It is passed as an int,
+ * but it is converted to an unsigned char.
  * @param len Number of bytes to be set to the value.
  * @return Returns a pointer to the memory area `b`.
  */

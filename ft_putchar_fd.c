@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:21:00 by flverge           #+#    #+#             */
-/*   Updated: 2024/09/22 17:08:21 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:23:18 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,8 @@
  * @file ft_putchar_fd.c
  * @brief Outputs the character 'c' to the given file descriptor.
  *
- * This function writes the character 'c' to the file descriptor specified by 'fd'.
+ * This function writes the character 'c'
+ * to the file descriptor specified by 'fd'.
  *
  * @param c The character to output.
  * @param fd The file descriptor on which to write.

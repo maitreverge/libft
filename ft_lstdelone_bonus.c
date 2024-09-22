@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:19:18 by flverge           #+#    #+#             */
-/*   Updated: 2024/09/22 17:05:47 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:22:01 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,8 @@
  * memory allocated for the element itself.
  *
  * @param lst Pointer to the linked list element to be deleted.
- * @param del Function pointer to the function used to delete the content of the element.
+ * @param del Function pointer to the function used
+ * to delete the content of the element.
  */
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {

@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:20:13 by flverge           #+#    #+#             */
-/*   Updated: 2024/09/22 17:07:24 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:22:51 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,10 @@
  * @param s1 Pointer to the first memory area.
  * @param s2 Pointer to the second memory area.
  * @param n Number of bytes to compare.
- * @return An integer less than, equal to, or greater than zero if the first n bytes
- *         of s1 is found, respectively, to be less than, to match, or be greater than
- *         the first n bytes of s2.
+ * @return An integer less than, equal to, or greater
+ * than zero if the first n bytes
+ * of s1 is found, respectively, to be less than, to match, or be greater than
+ * the first n bytes of s2.
  */
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

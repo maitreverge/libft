@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:23:05 by flverge           #+#    #+#             */
-/*   Updated: 2024/09/22 17:12:28 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:25:02 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,8 @@
  * new string should be freed by the caller when it is no longer needed.
  *
  * @param s1 The string to be duplicated.
- * @return A pointer to the newly allocated string, or NULL if memory allocation fails.
+ * @return A pointer to the newly allocated string,
+ * or NULL if memory allocation fails.
  */
 char	*ft_strdup(const char *s1)
 {
@@ -36,4 +37,3 @@ char	*ft_strdup(const char *s1)
 	buffer[len_s1] = '\0';
 	return (buffer);
 }
-

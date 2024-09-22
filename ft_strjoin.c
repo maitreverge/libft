@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:23:19 by flverge           #+#    #+#             */
-/*   Updated: 2024/09/22 17:12:50 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:25:21 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,9 @@
  *
  * @param s1 The prefix string.
  * @param s2 The suffix string.
- * @return A new string which is the result of the concatenation of 's1' and 's2',
- *         or NULL if the allocation fails or if either 's1' or 's2' is NULL.
+ * @return A new string which is the result
+ * of the concatenation of 's1' and 's2',
+ * or NULL if the allocation fails or if either 's1' or 's2' is NULL.
  */
 char	*ft_strjoin(char const *s1, char const *s2)
 {

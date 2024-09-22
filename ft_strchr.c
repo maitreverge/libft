@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:22:50 by flverge           #+#    #+#             */
-/*   Updated: 2024/09/22 17:12:14 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:24:54 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,10 @@
  *
  * @param s The string in which to search for the character.
  * @param c The character to search for, converted to an unsigned char.
- * @return A pointer to the first occurrence of the character `c` in the string `s`,
- *         or NULL if the character is not found. If `c` is '\0', returns a pointer
- *         to the null terminator of the string.
+ * @return A pointer to the first occurrence
+ * of the character `c` in the string `s`,
+ * or NULL if the character is not found. If `c` is '\0', returns a pointer
+ * to the null terminator of the string.
  */
 char	*ft_strchr(const char *s, int c)
 {

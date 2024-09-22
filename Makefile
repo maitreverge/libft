@@ -3,16 +3,16 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: flverge <marvin@42.fr>                     +#+  +:+       +#+         #
+#    By: flverge <flverge@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/02 15:29:49 by flverge           #+#    #+#              #
-#    Updated: 2024/02/17 20:33:59 by flverge          ###   ########.fr        #
+#    Updated: 2024/09/22 17:31:17 by flverge          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 CC = cc
-CFLAGS = -Wall -Wextra -Werror -std=c99 -I.
+CFLAGS = -Wall -Wextra -Werror -I.
 
 SRC = ft_isalpha.c \
 	ft_isdigit.c \

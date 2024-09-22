@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:18:39 by flverge           #+#    #+#             */
-/*   Updated: 2024/09/22 17:04:41 by flverge          ###   ########.fr       */
+/*   Updated: 2024/09/22 17:20:30 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,8 @@ static int	alloc_lenght(long n)
  * buffer is set to the minus sign ('-').
  *
  * @param nbr Pointer to the number to be checked and potentially modified.
- * @param buffer Pointer to the buffer where the minus sign will be set if the number is negative.
+ * @param buffer Pointer to the buffer where the minus
+ * sign will be set if the number is negative.
  */
 static void	check_neg(long *nbr, char *buffer)
 {
