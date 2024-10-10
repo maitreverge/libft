@@ -20,7 +20,6 @@ static int	ft_isspace(int c)
 }
 
 /**
-/**
  * @brief Converts the initial portion of the string pointed to by str to int.
  *
  * This function parses the C-string str interpreting its content as an 
@@ -33,7 +32,7 @@ static int	ft_isspace(int c)
  * @param str The string to be converted to int.
  * @return The converted integral number as an int. If no valid conversion 
  *         could be performed, it returns zero.
- */
+*/
 int	ft_atoi(const char *str)
 {
 	int	i;
