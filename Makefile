@@ -6,7 +6,7 @@
 #    By: flverge <flverge@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/02 15:29:49 by flverge           #+#    #+#              #
-#    Updated: 2024/09/22 17:31:17 by flverge          ###   ########.fr        #
+#    Updated: 2024/10/11 00:05:01 by flverge          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -68,7 +68,7 @@ $(NAME): $(OBJ)
 	ar rcs $(NAME) $(OBJ)
 	ranlib $(NAME)
 
-bonus: $(OBJ_BONUS)
+bonus: all $(OBJ_BONUS)
 	ar rcs $(NAME) $(OBJ_BONUS)
 	ranlib $(NAME)
 
